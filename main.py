@@ -3,6 +3,7 @@ def Register():
     k = True
     class registering:
         def __init__(self):
+            nonlocal k
             name = input("Please enter a username: ")
             for i in users:
                 if name in i:
@@ -11,12 +12,12 @@ def Register():
             passcode = input("Please enter a password:")
             self.username = name
             self.password = passcode
-            users.append([name,passcode])
-            global k
+            users.append(tuple((name,passcode)))
             k = False
             
     while k:
         user = registering()
+    return 
 Register()
       
 
