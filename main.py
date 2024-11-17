@@ -1,6 +1,6 @@
 import csv
 import os
-CSV_FILE = r"C:\Users\mail2\OneDrive\Desktop\users.csv"
+CSV_FILE = r"C:\Users\mail2\OneDrive\Desktop\python_project\users.csv"
 def initialize_csv():
     if not os.path.exists(CSV_FILE):  
         with open(CSV_FILE, mode='w', newline='') as file:  
