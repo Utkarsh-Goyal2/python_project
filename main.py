@@ -53,3 +53,4 @@ initialize_csv()
 for i in range(5):
     Register()
 Login()
+print("Hello wrold")
