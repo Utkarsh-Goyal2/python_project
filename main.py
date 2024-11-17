@@ -29,16 +29,17 @@ def Register():
         registering()
     return 
 def Login():
-    tries = 0
+    tries = 1
     name = input("Enter your username")
     with open(CSV_FILE, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             if row["Name"] == name:
-                while tries < 3:
-                    passcode = input("Enter your password")
+                while tries <= 3:
+                    passcode = input("Enter your password:")
                     if row["Password"] == passcode:
                         print("Login Successfull")
+                        break
                     else:
                         print(f"Wrong password. You have {3-tries} tries left")
                         tries += 1
