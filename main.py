@@ -51,9 +51,4 @@ def Login():
 
 for i in range(3):
     Register()
-<<<<<<< HEAD
 Login()
-=======
-Login()
-print("Hello world")
->>>>>>> b78591e0d1e05228e7c6b1ee48b82d746b9107dd
