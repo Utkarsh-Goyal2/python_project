@@ -49,8 +49,6 @@ def Login():
             return
         
 
-initialize_csv()
-for i in range(5):
+for i in range(3):
     Register()
 Login()
-print("Hello wrold")
