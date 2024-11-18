@@ -1,6 +1,6 @@
 import csv
 import os
-CSV_FILE = r"C:\Users\mail2\OneDrive\Desktop\users.csv"
+CSV_FILE = r"C:\Users\mail2\OneDrive\Desktop\python_project\users.csv"
 def initialize_csv():
     if not os.path.exists(CSV_FILE):  
         with open(CSV_FILE, mode='w', newline='') as file:  
@@ -30,7 +30,7 @@ def Register():
     return 
 def Login():
     tries = 1
-    name = input("Enter your username")
+    name = input("Enter your username:")
     with open(CSV_FILE, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
@@ -39,19 +39,18 @@ def Login():
                     passcode = input("Enter your password:")
                     if row["Password"] == passcode:
                         print("Login Successfull")
-                        break
+                        return
                     else:
                         print(f"Wrong password. You have {3-tries} tries left")
                         tries += 1
-            else:
-                print("User is not registered")
-                return 
+                return
+        else:
+            print("User is not registered")
+            return
         
 
-with open(CSV_FILE, mode='r') as file:
-    reader = csv.DictReader(file)
-    print("Headers:", reader.fieldnames)
+initialize_csv()
 for i in range(5):
     Register()
 Login()
-#just trying push-pull
+print("Hello world")
