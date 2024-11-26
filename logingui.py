@@ -7,7 +7,7 @@ image_1="travel.png"
 image1=Image.open(image_1)
 photo1 = ImageTk.PhotoImage(image1)
 canvas.create_image(0, 0, image=photo1, anchor=NW)
-canvas.create_text(335,270,text="USERNAME",font=("Montserrat", 14,"bold"))
+canvas.create_text(335,270,text="USERNAME",font=("Times New Roman", 14,"bold"))
 e_username1=Entry(root,width=30)
 canvas.create_window(335,300,window=e_username1)
 canvas.create_text(335,350,text="PASSWORD",font=("Montserrat",14,"bold"))
@@ -18,7 +18,7 @@ def signup_window():
     second_window.title("Sign Up")
     canvas=Canvas(second_window,width=626,height=417)
     canvas.pack(fill='both',expand=True)
-    second_window.image_1="/home/saravanan/project/signup.png"
+    second_window.image_1="signup.png"
     image=Image.open(second_window.image_1)
     second_window.photo = ImageTk.PhotoImage(image)
     canvas.create_image(0, 0, image=second_window.photo, anchor=NW)
