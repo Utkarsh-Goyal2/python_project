@@ -2,15 +2,18 @@ import pandas as pd
 
 class Car:
     """Represents a single car in the rental system."""
-    def __init__(self, car_model, rental_company, daily_rate, availability):
+    def __init__(self, car_model, daily_rate, car_seats, car_fuel, car_transmission, city):
         self.car_model = car_model
-        self.rental_company = rental_company
         self.daily_rate = daily_rate
-        self.availability = availability
+        self.car_seats = car_seats
+        self.car_fuel = car_fuel
+        self.car_transmission = car_transmission
+        self.city = city
 
     def __str__(self):
-        return (f"Model: {self.car_model}, Company: {self.rental_company}, "
-                f"Rate: {self.daily_rate}, Available: {self.availability}")
+        return (f"Model: {self.car_model}, Rate: {self.daily_rate}, "
+                f"Seats: {self.car_seats}, Fuel: {self.car_fuel}, "
+                f"Transmission: {self.car_transmission}, City: {self.city}")
 
 class CarRentalSystem:
     """Manages a collection of Car objects for a rental system."""
@@ -24,26 +27,28 @@ class CarRentalSystem:
             for _, row in data.iterrows():
                 car = Car(
                     car_model=row.get('Car_Model'),
-                    rental_company=row.get('Rental_Company'),
                     daily_rate=row.get('Daily_Rate'),
-                    availability=row.get('Availability')
+                    car_seats=row.get('Car_Seats'),
+                    car_fuel=row.get('Car_Fuel'),
+                    car_transmission=row.get('Car_Transmission'),
+                    city=row.get('City')
                 )
                 self.cars.append(car)
             print(f"Loaded {len(self.cars)} cars successfully.")
         except Exception as e:
             print(f"Error loading data: {e}")
 
-    def filter_by_company(self, company_name):
-        """Filter cars by rental company."""
-        return [car for car in self.cars if car.rental_company == company_name]
-
-    def available_cars(self):
-        """Get a list of all available cars."""
-        return [car for car in self.cars if car.availability.lower() == 'yes']
+    def filter_by_city(self, city_name):
+        """Filter cars by city."""
+        return [car for car in self.cars if car.city.lower() == city_name.lower()]
 
     def cheapest_car(self):
         """Find the car with the lowest daily rate."""
         return min(self.cars, key=lambda car: car.daily_rate)
+
+    def filter_by_seats(self, min_seats):
+        """Filter cars with at least a specified number of seats."""
+        return [car for car in self.cars if car.car_seats >= min_seats]
 
     def display_all_cars(self, limit=5):
         """Display all cars (or up to the limit)."""
@@ -60,15 +65,16 @@ rental_system.load_data(file_path)
 # Display first few cars
 rental_system.display_all_cars()
 
-# Filter cars by a specific rental company
-hertz_cars = rental_system.filter_by_company("Hertz")
-for car in hertz_cars:
+# Filter cars by city
+city_cars = rental_system.filter_by_city("New York")
+print("Cars in New York:")
+for car in city_cars:
     print(car)
 
-# List all available cars
-available = rental_system.available_cars()
-print("Available Cars:")
-for car in available:
+# Filter cars by minimum number of seats
+cars_with_min_seats = rental_system.filter_by_seats(5)
+print("Cars with at least 5 seats:")
+for car in cars_with_min_seats:
     print(car)
 
 # Get the cheapest car
