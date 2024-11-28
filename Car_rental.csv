@@ -1,0 +1,206 @@
+﻿City,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+Delhi,Citroen C3 2022,Manual,Petrol,5 Seats,"₹208
+/hr"
+,Tata Punch 2022,Manual,Petrol,5 Seats,"₹205
+/hr"
+,Maruti Suzuki Wagon R 2022,Manual,Petrol,5 Seats,"₹125
+/hr"
+,Datsun GO Plus 2020,Manual,Petrol,7 Seats,"₹101
+/hr"
+,Maruti Suzuki Wagon R 1.0 2021,Manual,Petrol,5 Seats,"₹108
+/hr"
+Mumbai,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Maruti Suzuki Dzire 2017,Automatic,Diesel,5 Seats,"₹158
+/hr"
+,Maruti Suzuki Ertiga 2024,Manual,Petrol,7 Seats,"₹199
+/hr"
+,Hyundai Eon 2019,Manual,Petrol,5 Seats,"₹70
+/hr"
+,Maruti Suzuki S-Presso 2022,Manual,Petrol,5 Seats,"₹75
+/hr"
+,Maruti Suzuki Wagon R 1.0 2021,Manual,Petrol,5 Seats,"₹77
+/hr"
+Bengaluru,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Renault Triber 2024,Manual,Petrol,7 Seats,"₹153
+/hr"
+,Honda Amaze 2021,Manual,Diesel,5 Seats,"₹188
+/hr"
+,Suzuki Grand Vitara 2022,Manual,Petrol,5 Seats,"₹482
+/hr"
+,KIA Carens 2022,Manual,Petrol,7 Seats,"₹410
+/hr"
+,Maruti Suzuki ALTO 2022,Manual,Petrol,5 Seats,"₹84
+/hr"
+Chennai,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Maruti Suzuki Swift 2024,Manual,Petrol,5 Seats,"₹181
+/hr"
+,Datsun redi-GO 2020,Manual,Petrol,5 Seats,"₹93
+/hr"
+,Maruti Suzuki ALTO 2018,Manual,Petrol,5 Seats,"₹93
+/hr"
+,Maruti Suzuki Alto 800 2022,Manual,Petrol,5 Seats,"₹93
+/hr"
+,Renault Kwid [2019] 2016,Manual,Petrol,5 Seats,"₹93
+/hr"
+Kolkata,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Hyundai Venue 2022,Manual,Petrol,5 Seats,"₹179
+/hr"
+,Maruti Suzuki Ignis 2018,Manual,Petrol,5 Seats,"₹97
+/hr"
+,Maruti Suzuki ALTO 2017,Manual,Petrol,5 Seats,"₹73
+/hr"
+,Maruti Suzuki Alto 800 2016,Manual,Petrol,5 Seats,"₹73
+/hr"
+,Renault Kwid [2019] 2021,Manual,Petrol,5 Seats,"₹78
+/hr"
+Hyderabad,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Maruti Suzuki Grand Vitara 2024,Manual,Petrol,5 Seats,"₹198
+/hr"
+,Maruti Suzuki XL6 2022,Manual,Petrol,6 Seats,"₹262
+/hr"
+,Maruti Suzuki BALENO 2017,Automatic,Petrol,5 Seats,"₹176
+/hr"
+,Hyundai i10 2016,Manual,Petrol,5 Seats,"₹73
+/hr"
+,Maruti Suzuki Celerio 2024,Manual,Petrol,5 Seats,"₹80
+/hr"
+Cochin,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Tata Tiago JTP 2021,Manual,Petrol,5 Seats,"₹126
+/hr"
+,Maruti Suzuki Wagon R 2023,Manual,Petrol,5 Seats,"₹130
+/hr"
+,Hyundai Grand i10 2022,Automatic,Petrol,5 Seats,"₹140
+/hr"
+,Hyundai Venue 2019,Automatic,Petrol,5 Seats,"₹245
+/hr"
+,Mahindra Thar 2024,Automatic,Diesel,4 Seats,"₹308
+/hr"
+Ahmedabad,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Hyundai Santro 2021,Automatic,Petrol,5 Seats,"₹120
+/hr"
+,Ford Freestyle 2019,Manual,Diesel,5 Seats,"₹157
+/hr"
+,Maruti Suzuki Wagon R 2020,Manual,Petrol,5 Seats,"₹112
+/hr"
+,Tata Tiago 2019,Manual,Petrol,5 Seats,"₹127
+/hr"
+,Maruti Suzuki Swift Dzire 2019,Manual,Petrol,5 Seats,"₹139
+/hr"
+Goa,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Maruti Suzuki Baleno 2023,Automatic,Petrol,5 Seats,"₹114
+/hr"
+,Hyundai Creta 2018,Automatic,Petrol,5 Seats,"₹176
+/hr"
+,Maruti Suzuki Baleno 2024,Manual,Petrol,5 Seats,"₹76
+/hr"
+,KIA Carens 2022,Automatic,Diesel,6 Seats,"₹164
+/hr"
+,Maruti Suzuki Baleno 2022,Manual,Petrol,5 Seats,"₹146
+/hr"
+Trivandrum,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Maruti Suzuki Ertiga 2016,Automatic,Diesel,7 Seats,"₹203
+/hr"
+,Maruti Suzuki Fronx 2024,Automatic,Petrol,5 Seats,"₹218
+/hr"
+,KIA Carens 2023,Manual,Petrol,7 Seats,"₹349
+/hr"
+,Maruti Suzuki Dzire 2024,Automatic,Petrol,5 Seats,"₹246
+/hr"
+,Maruti Suzuki Baleno 2024,Automatic,Petrol,5 Seats,"₹246
+/hr"
+Pune,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Maruti Suzuki XL6 2024,Manual,Petrol,6 Seats,"₹247
+/hr"
+,Hyundai Alcazar 2024,Automatic,Diesel,6 Seats,"₹417
+/hr"
+,Hyundai Grand i10 2020,Manual,Petrol,5 Seats,"₹116
+/hr"
+,Maruti Suzuki BALENO 2019,Manual,Petrol,5 Seats,"₹147
+/hr"
+,Honda Amaze 2022,Manual,Petrol,5 Seats,"₹164
+/hr"
+Jaipur,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Tata Nexon 2023,Manual,Petrol,5 Seats,"₹221
+/hr"
+,Mahindra Scorpio 2022,Manual,Diesel,7 Seats,"₹408
+/hr"
+,Maruti Suzuki Brezza 2024,Manual,Petrol,5 Seats,"₹194
+/hr"
+,Nissan Magnite 2023,Manual,Petrol,5 Seats,"₹146
+/hr"
+,Maruti Suzuki Baleno 2021,Manual,Petrol,5 Seats,"₹151
+/hr"
+Lucknow,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Honda City 2019,Manual,Diesel,5 Seats,"₹157
+/hr"
+,Renault Kiger 2023,Manual,Petrol,5 Seats,"₹131
+/hr"
+,Tata Nexon 2021,Manual,Petrol,5 Seats,"₹150
+/hr"
+,Maruti Suzuki Swift 2022,Automatic,Petrol,5 Seats,"₹164
+/hr"
+,Maruti Suzuki XL6 2020,Manual,Petrol,6 Seats,"₹242
+/hr"
+Guwahati,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Renault Triber 2024,Manual,Petrol,7 Seats,"₹111
+/hr"
+,KIA Carens 2023,Manual,Petrol,7 Seats,"₹348
+/hr"
+,Nissan Magnite 2023,Manual,Petrol,5 Seats,"₹130
+/hr"
+,Maruti Suzuki Fronx 2024,Manual,Petrol,5 Seats,"₹188
+/hr"
+,Maruti Suzuki S-Presso 2024,Manual,Petrol,5 Seats,"₹103
+/hr"
+Amritsar,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Tata Punch 2024,Manual,Petrol,5 Seats,"₹170
+/hr"
+,Toyota Innova Crysta 2022,Manual,Diesel,8 Seats,"₹337
+/hr"
+,Maruti Suzuki Ertiga 2023,Manual,Petrol,7 Seats,"₹172
+/hr"
+Bhubaneswar,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Maruti Suzuki Wagon R 2024,Manual,Petrol,5 Seats,"₹92
+/hr"
+,Maruti Suzuki Celerio 2016,Manual,Petrol,5 Seats,"₹98
+/hr"
+,Maruti Suzuki Brezza 2023,Manual,Petrol,5 Seats,"₹196
+/hr"
+,Maruti Suzuki Ertiga 2021,Manual,Petrol,7 Seats,"₹221
+/hr"
+,Tata Tiago 2021,Manual,Petrol,5 Seats,"₹97
+/hr"
+Coimbatore,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Hyundai Grand i10 2022,Manual,Petrol,5 Seats,"₹110
+/hr"
+,Tata Harrier 2020,Manual,Diesel,5 Seats,"₹250
+/hr"
+,Renault Kwid 2019,Manual,Petrol,5 Seats,"₹80
+/hr"
+,Honda Amaze 2016,Manual,Petrol,5 Seats,"₹89
+/hr"
+,Hyundai Santro 2021,Manual,Petrol,5 Seats,"₹91
+/hr"
+Visakhapatnam,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Mahindra Scorpio 2023,Manual,Diesel,7 Seats,"₹399
+/hr"
+,Hyundai Creta 2022,Manual,Petrol,5 Seats,"₹268
+/hr"
+,Maruti Suzuki Swift 2020,Manual,Petrol,5 Seats,"₹94
+/hr"
+,Tata ALTROZ 2021,Automatic,Petrol,5 Seats,"₹151
+/hr"
+,Renault Kwid 2020,Manual,Petrol,5 Seats,"₹68
+/hr"
+Mangalore,Car_Name,Car_Transmission,Car_Fuel,Car_Seats,Car_Price
+,Renault Kiger 2024,Manual,Petrol,5 Seats,"₹190
+/hr"
+,Honda Amaze 2019,Manual,Petrol,5 Seats,"₹92
+/hr"
+,Renault Triber 2023,Automatic,Petrol,7 Seats,"₹115
+/hr"
+,Hyundai Venue 2021,Manual,Petrol,5 Seats,"₹185
+/hr"
+,Renault Kiger 2022,Automatic,Petrol,5 Seats,"₹145
+/hr"
+Varanasi,Car rental unavailable,,,,

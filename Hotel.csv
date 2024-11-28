@@ -1,0 +1,218 @@
+﻿City,Hotel__Name,Hotel__Rating,Hotel__Price
+Delhi,Hotel Square Plaza -Near IGI Airport Terminal 3,4.8/5,1798
+,Majestic Park B & B,4.6/5,1590
+,Hotel Ark Wood Residency Near Delhi International Airport,4.5/5,1484
+,Hotel Edission View --Near Delhi Airport,4.4/5,1299
+,Airport Hotel Classic Park,4.6/5,1329
+,East Park Inn,3.6/5,5026
+,Hotel Mayank Plaza-Near IGI Airport Terminal-3,4.1/5,1070
+,Roomsity Pride,5.0/5,1339
+,"Pride Plaza Hotel, Aerocity New Delhi",4.3/5,11249
+,Hotel GoodLuck House Near Delhi airport,4.3/5,1205
+Mumbai,Hotel_Name,Hotel_Rating,Hotel_Price
+,Fairfield by Marriott Mumbai International Airport,4.4/5,8999
+,"The Taj Mahal Tower, Mumbai",4.8/5,17990
+,Hotel Sahara Star,4.0/5,12393
+,"Holiday Inn Mumbai International Airport, an IHG Hotel",4.3/5,8749
+,JW Marriott Mumbai Sahar Airport,4.7/5,14000
+,Courtyard by Marriott Mumbai International Airport,4.6/5,11500
+,Ira by Orchid Mumbai T-2 International Airport,4.4/5,6295
+,"Ginger Mumbai, Goregaon",4.0/5,6745
+,Taj Lands End,4.5/5,10994
+,"Lemon Tree Premier, Mumbai International Airport",4.4/5,8329
+,The Westin Mumbai Powai Lake,4.2/5,13500
+,Svenska Design Hotel,3.9/5,6997
+Bengaluru,Hotel_Name,Hotel_Rating,Hotel_Price
+,Ibis Bengaluru City Centre - An Accor Brand,3.7/5,6800
+,Fairfield by Marriott Bengaluru Rajajinagar,3.6/5,7593
+,Goldfinch Hotel Bangalore,4.1/5,5499
+,Ramada Encore by Wyndham Bangalore Domlur,4.6/5,7000
+,Octave Church Inn,3.8/5,2196
+,JW Marriott Hotel Bengaluru,4.8/5,19000
+,Holiday Inn Bengaluru Racecourse,4.4/5,20499
+,"The Elanza Hotel, Bangalore",3.8/5,3996
+,Vivanta Bengaluru Residency Road,4.1/5,10994
+,Ginger Bangalore- Whitefield,4.0/5,3597
+,"ITC Gardenia, a Luxury Collection Hotel, Bengaluru",4.3/5,18000
+,Ginger Bangalore- Inner Ring Road,4.2/5,3435
+Chennai,Hotel_Name,Hotel_Rating,Hotel_Price
+,Taj Club House,4.3/5,5797
+,The Park Chennai,3.7/5,5658
+,"Radisson Chennai City Centre, India",4.4/5,6110
+,"The Raintree, St. Mary’s Road",4.3/5,7569
+,Ibis Chennai City Centre,3.6/5,4935
+,"The Residency, Chennai",3.9/5,8192
+,Grand Chennai by GRT Hotels,4.5/5,7646
+,Ramada Plaza by Wyndham Chennai,4.3/5,6403
+,Courtyard Chennai,4.2/5,6000
+,The Accord Metropolitan,4.0/5,8259
+Kolkata,Hotel_Name,Hotel_Rating,Hotel_Price
+,Vivanta Kolkata EM Bypass,4.0/5,6894
+,"Taj City Centre New Town, Kolkata",4.4/5,8500
+,The Westin Kolkata Rajarhat,4.3/5,9549
+,Howard Johnson by Wyndham Kolkata,4.2/5,5099
+,"Holiday Inn Kolkata Airport, an IHG Hotel",3.9/5,5244
+,Hyatt Regency Kolkata,3.8/5,10500
+,"ITC Royal Bengal, a Luxury Collection Hotel, Kolkata",4.3/5,15000
+,Dover Inn by BookMeriHotel.Com,4.4/5,1646
+,Siamton Inn- A Cygnett Collection,4.3/5,5800
+,The Lalit Great Eastern Kolkata,3.7/5,9201
+Hyderabad,Hotel_Name,Hotel_Rating,Hotel_Price
+,"The Park Hyderabad, Banjara Hills Near Hussain Sagar Lake",4.0/5,6825
+,Hyderabad Marriott Hotel & Convention Centre,4.4/5,8495
+,Taj Krishna,4.1/5,8093
+,"Vivanta Hyderabad, Begumpet",4.3/5,7578
+,Taj Deccan,4.2/5,7471
+,Le Meridien Hyderabad,4.2/5,8099
+,Hyatt Place Hyderabad Banjara Hills,4.0/5,7999
+,Greenpark Hyderabad,4.5/5,6229
+,"Lemon Tree Hotel, Banjara Hills, Hyderabad",4.5/5,5387
+Cochin,Hotel_Name,Hotel_Rating,Hotel_Price
+,Sidra Pristine Hotel and Portico Halls,3.8/5,2575
+,Holiday Inn Cochin,3.8/5,7499
+,"Keys Select by Lemon Tree Hotels, Kochi",4.2/5,3212
+,Super Collection O Calvathy Road Near Fort Kochi,4.5/5,1899
+,Kent Baywatch Suites,4.0/5,3098
+,Honolulu Home,4.1/5,1308
+,Guest West Inn Cochin,4.1/5,2778
+,Lazar Residency Homestay,4.5/5,1562
+,Dream Catcher Home Stay,4.5/5,1562
+Ahmedabad,Hotel_Name,Hotel_Rating,Hotel_Price
+,Fairfield by Marriott Ahmedabad,3.7/5,6000
+,Renaissance Ahmedabad Hotel,4.4/5,6500
+,Sarovar Portico Kalupur Ahmedabad,4.1/5,4050
+,"ITC Narmada, a Luxury Collection Hotel, Ahmedabad",4.6/5,13500
+,Ginger Ahmedabad Vastrapur,4.0/5,3499
+,Hyatt Ahmedabad,4.1/5,9800
+,"Welcomhotel by ITC Hotels, Ashram Road, Ahmedabad",4.4/5,10099
+,Lemon Tree Premier “The Atrium” Ahmedabad,4.4/5,10939
+,Hotel Alka Inn,3.8/5,2634
+,"Lemon Tree Hotel, Ahmedabad",3.9/5,6044
+Goa,Hotel_Name,Hotel_Rating,Hotel_Price
+,Fairfield by Marriott Goa Benaulim,4.4/5,9300
+,Novotel Goa Resort & Spa,4.4/5,8840
+,Holiday Inn Goa Candolim,4.6/5,12999
+,Park Regis Goa,3.8/5,6975
+,Riva Beach Resort,4.1/5,9695
+,"Taj Cidade de Goa Horizon, Goa",4.6/5,24379
+,"Ginger Madgaon, Goa",3.9/5,3639
+,"Lazy Lagoon, Baga A Lemon Tree Resort, Goa",4.8/5,5609
+,Marina Bay Beach Resort,3.8/5,2944
+,La Vega Resort,5.0/5,1231
+Trivandrum,Hotel_Name,Hotel_Rating,Hotel_Price
+,Hilton Garden Inn Trivandrum,4.3/5,7000
+,Classic Sarovar Portico Trivandrum,4.7/5,4050
+,Dimora Hotels and Resorts,4.1/5,5400
+,Residency Tower,4.0/5,3645
+,"O by Tamara, Trivandrum",4.6/5,5814
+,Hyatt Regency Trivandrum,4.7/5,8750
+,The Central Residency,4.1/5,4499
+,Hycinth Hotels,4.3/5,6376
+,Indeevaram Residency,4.3/5,2659
+,Treebo Park,4.0/5,2491
+Pune,Hotel_Name,Hotel_Rating,Hotel_Price
+,Novotel Pune Nagar Road,4.1/5,5249
+,Hyatt Regency Pune,4.5/5,7700
+,Ginger Pune Wakad,4.0/5,5277
+,Blue Diamond Pune Ihcl SeleQtions,4.4/5,9250
+,Lemon Tree Premier City Center Pune,4.5/5,5618
+,Hyatt Pune,4.0/5,7000
+,O Hotel Pune,3.9/5,7049
+,St Laurn Koregaon Park Pune,4.0/5,5536
+,"Four Points by Sheraton Hotel & Serviced Apartments, Pune",4.1/5,7000
+Jaipur,Hotel_Name,Hotel_Rating,Hotel_Price
+,Holiday Inn Express & Suites Jaipur Gopalpura,4.4/5,"₹ 6,374"
+,Cozy Castle,5.0/5,₹ 402
+,Hotel Metropolitan,4.6/5,"₹ 1,348"
+,Clarks Amer,4.6/5,"₹ 12,563"
+,Holiday Inn Jaipur City Centre,4.2/5,"₹ 14,291"
+,Hotel Thikana Palace,3.9/5,"₹ 1,183"
+,Jaipur Inn,4.1/5,"₹ 3,181"
+,Whispering Palms Hotel Jaipur,4.2/5,"₹ 2,339"
+,Ramada by Wyndham Jaipur North,4.2/5,"₹ 5,381"
+Lucknow,Hotel_Name,Hotel_Rating,Hotel_Price
+,Holiday Inn Lucknow Airport,4.4/5,14500
+,The Piccadily,4.5/5,13614
+,Hometel Alambagh Lucknow - A Sarovar Hotel,5.0/5,8296
+,Lemon Tree Hotel Lucknow,4.2/5,11851
+,The Centrum,4.7/5,11455
+,Hotel Vinayak,4.5/5,3991
+,Hotel Olive Crown,1.0/5,3300
+,FabHotel A One Inn,3.1/5,2807
+Guwahati,Hotel_Name,Hotel_Rating,Hotel_Price
+,Novotel Guwahati GS Road,4.2/5,7836
+,Hotel Rains Inn,4.0/5,3919
+,Bed and breakfast,4.0/5,3919
+,Hotel Rashmi Guwahati,3.7/5,1999
+,Super Townhouse Oak GS Road Formerly d'Agneedeep,4.4/5,3417
+,Treebo Hotel Mobi VIP Airport,4.0/5,2207
+,Hotel Nandan,3.7/5,4500
+,Hotel Millennium,3.8/5,3698
+,Ghar 365 Residency,3.7/5,3775
+,Hotel Atithi,3.8/5,4998
+,Kiranshree Grand,4.5/5,10499
+Amritsar,Hotel_Name,Hotel_Rating,Hotel_Price
+,"Welcomhotel by ITC Hotels, Raja Sansi, Amritsar",4.6/5,8900
+,Le Méridien Amritsar,4.6/5,8000
+,Golden Sarovar Portico,4.6/5,5600
+,Ramada Encore by Wyndham Amritsar Airport,4.6/5,6000
+,Holiday Inn Amritsar Ranjit Avenue,4.1/5,10000
+,Hotel PR Residency Amritsar,3.6/5,2400
+,WelcomHeritage Ranjitvilas,4.3/5,6799
+,Hotel Punnu International,5.0/5,1785
+,Kavaali Stays,5.0/5,6799
+,Best Western AH1 Amritsar,3.5/5,5398
+Varanasi,Hotel_Name,Hotel_Rating,Hotel_Price
+,Local Lok,4.7/5,425
+,Ramada Plaza by Wyndham JHV Varanasi,3.6/5,13000
+,Taj Ganges Varanasi,4.4/5,25998
+,Trilok Residency Dashashwamedh Varanasi,4.4/5,2676
+,Hotel Prabhat,3.8/5,2700
+,The Olivia,5.0/5,5445
+,"Sada Shiv Guest House ,3 Star Hotel Near Kashi Vishwanath Temple and Dashashwamedh Ghat with Parking",4.8/5,2628
+,The Fern Residency Sarnath,4.2/5,9261
+,Siddhi Vinayak Inn,3.7/5,2500
+,Gupta Inn,3.6/5,2280
+Bhubaneswar,Hotel_Name,Hotel_Rating,Hotel_Price
+,Ginger Bhubaneshwar,3.9/5,3598
+,"The Crown, Bhubaneswar - Ihcl SeleQtions",4.7/5,5460
+,Cozzet Victoria Hotel,4.5/5,6799
+,Mayfair Convention,4.7/5,6163
+,Ira by Orchid Bhubaneswar - Formerly Vits Bhubaneshwar,4.7/5,4097
+,"Welcomhotel by ITC Hotels, Bhubaneswar",4.7/5,9000
+,"Fortune Park Sishmo, Bhubaneshwar - Member ITC's Hotel Group",4.7/5,7650
+,Hotel Swosti Premium Bhubaneswar,4.3/5,7504
+,Trident Bhubaneswar,4.7/5,11999
+,Lyfe Hotels Bhubaneswar,4.9/5,12999
+Coimbatore,Hotel_Name,Hotel_Rating,Hotel_Price
+,Ibis Coimbatore City Centre,3.6/5,6062
+,Fairfield by Marriott Coimbatore,4.2/5,10631
+,Ikon by Annapoorna,4.5/5,6400
+,The Grand Regent,4.3/5,5264
+,Cag Pride,3.8/5,4858
+,Santhoshpuri,3.8/5,2250
+,Hotel Heritage Inn,4.3/5,3900
+,Zone by the Park Coimbatore,4.3/5,6746
+,"Welcomhotel by ITC Hotels, RaceCourse, Coimbatore",4.1/5,11499
+Visakhapatnam,Hotel_Name,Hotel_Rating,Hotel_Price
+,"Welcomhotel by ITC Hotels, Devee Grand Bay, Visakhapatnam",4.5/5,7500
+,Novotel Visakhapatnam Varun Beach,3.9/5,8241
+,Fairfield by Marriott Visakhapatnam,4.3/5,6953
+,Four Points by Sheraton Visakhapatnam,4.1/5,7800
+,The Park Visakhapatnam,4.2/5,7865
+,Greenpark Visakhapatnam,4.4/5,5669
+,"Fortune Inn Sree Kanya, Visakhapatnam - Member ITC's Hotel Group",4.5/5,4250
+,"Keys Select by Lemon Tree Hotels, Visakhapatnam",4.4/5,3756
+,Hotel Daspalla,4.3/5,4500
+,The Beacon Hotel Visakhapatnam,4.8/5,2730
+Mangalore,Hotel_Name,Hotel_Rating,Hotel_Price
+,Ginger Mangalore,3.8/5,3235
+,Goldfinch Hotel Mangalore,3.7/5,5999
+,"Adyar Plaza Inn by Rak Rooms, Mangaluru",3.8/5,2951
+,Hotel Paramount Suites & Service Apartments,3.8/5,4000
+,Hotel Manorama,4.0/5,3920
+,Hotel Karuna Residency,3.6/5,7974
+,"Hotel Prestige, Mangalore",3.8/5,4687
+,Srinivas Saffron Hotel,3.9/5,2969
+,Hotel White Stone Premier Inn,4.0/5,1499
+,Hotel Shoolin Grand,4.1/5,10500
