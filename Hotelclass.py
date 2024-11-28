@@ -2,17 +2,16 @@ import pandas as pd
 
 class Hotel:
     """Represents a single hotel."""
-    def __init__(self, hotel_name, location, best_rating, price_per_night, availability):
+    def __init__(self, hotel_name, location, city, best_rating, price_per_night):
         self.hotel_name = hotel_name
         self.location = location
+        self.city = city
         self.best_rating = best_rating
         self.price_per_night = price_per_night
-        self.availability = availability
 
     def __str__(self):
-        return (f"Hotel: {self.hotel_name}, Location: {self.location}, "
-                f"Rating: {self.best_rating}, Price: {self.price_per_night}, "
-                f"Available: {self.availability}")
+        return (f"Hotel: {self.hotel_name}, Location: {self.location}, City: {self.city}, "
+                f"Rating: {self.best_rating}, Price: {self.price_per_night}")
 
 class HotelManagement:
     """Manages a collection of Hotel objects."""
@@ -27,9 +26,9 @@ class HotelManagement:
                 hotel = Hotel(
                     hotel_name=row.get('Hotel_Name'),
                     location=row.get('Location'),
+                    city=row.get('City'),
                     best_rating=row.get('Best_Rating'),
-                    price_per_night=row.get('Price_Per_Night'),
-                    availability=row.get('Availability')
+                    price_per_night=row.get('Price_Per_Night')
                 )
                 self.hotels.append(hotel)
             print(f"Loaded {len(self.hotels)} hotels successfully.")
@@ -40,9 +39,9 @@ class HotelManagement:
         """Filter hotels with a rating equal to or greater than the given rating."""
         return [hotel for hotel in self.hotels if hotel.best_rating >= min_rating]
 
-    def available_hotels(self):
-        """Get a list of all available hotels."""
-        return [hotel for hotel in self.hotels if hotel.availability.lower() == 'yes']
+    def filter_by_city(self, city_name):
+        """Filter hotels by city."""
+        return [hotel for hotel in self.hotels if hotel.city.lower() == city_name.lower()]
 
     def cheapest_hotel(self):
         """Find the hotel with the lowest price per night."""
@@ -69,11 +68,4 @@ print("Highly Rated Hotels:")
 for hotel in high_rated_hotels:
     print(hotel)
 
-# List all available hotels
-available_hotels = hotel_manager.available_hotels()
-print("Available Hotels:")
-for hotel in available_hotels:
-    print(hotel)
-
-# Get the cheapest hotel
-print("Cheapest Hotel:", hotel_manager.cheapest_hotel())
+# Filter hotels
