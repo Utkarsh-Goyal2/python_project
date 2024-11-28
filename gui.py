@@ -1,27 +1,28 @@
-import tkinter as tk
-from tkinter import Tk, Label, PhotoImage
-from PIL import Image, ImageTk
+import customtkinter as ctk
+from PIL import Image,ImageTk
+from loginregisteration import Login,Register
+ctk.set_appearance_mode("dark")
+# Set the color theme (default, blue, green, dark-blue)
+ctk.set_default_color_theme("blue")
 
-welcome = tk.Tk()
-#welcome message 
-welcome_message = tk.Label(welcome, text = "Welcome!", font=("Arial", 30, "bold" ))
-welcome_message.place(x = 650, y = 100)
-#login button 
-login_button = tk.Button(welcome, text = "Login", font = ("Times new Roman", 20 ))
-#registeration button 
-register_button = tk.Button(welcome, text = "Register", font = ("Times new Roman", 20 ))
-#placing buttons
-login_button.place(x = 650, y = 200)
-register_button.place(x = 650, y = 300)
-#image
-image = Image.open(r"C:\Users\mail2\OneDrive\Desktop\trial.png")  
+# Create the main application window 
+app = ctk.CTk()
+app.title("---")
+app.geometry("800x700")
 
-resized_image = image.resize((300, 200), Image.Resampling.LANCZOS)  
-tk_image = ImageTk.PhotoImage(resized_image)
+#welcome message
+image_path=r"C:\Users\mail2\OneDrive\Desktop\yo.png"
+image = ctk.CTkImage(light_image=Image.open(image_path), dark_image=Image.open(image_path),size = (600,200))
+label = ctk.CTkLabel(app, text="Welcome to WanderEase!", font=("Berlin Sans FB", 50),bg_color="transparent",image = image,text_color = "white")
+label.pack(pady=70)
 
-# placing image
-label = Label(welcome, image=tk_image)
-label.place(x = 650, y = 400)
-
-welcome.mainloop()
-
+#input username and password
+username = ctk.CTkEntry(app,width = 300, placeholder_text="Enter your username",font=("Arial", 20))
+username.pack(pady=10)
+password = ctk.CTkEntry(app,width = 300, placeholder_text="Enter your password", font = ("Arial", 20))
+password.pack(pady = 10)
+#login / register button
+login = ctk.CTkButton(app,width = 100,text = "LOGIN", font = ("Arial", 20), command=lambda: Login(username.get(), password.get()))
+login.pack(pady = 20)
+# Run the application
+app.mainloop()
