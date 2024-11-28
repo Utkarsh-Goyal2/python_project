@@ -35,7 +35,7 @@ password.pack(pady = 10)
 #login / register button
 button_frame = ctk.CTkFrame(app)
 button_frame.pack(pady = 20, anchor = "center")
-login = ctk.CTkButton(button_frame,width = 100,text = "LOGIN", font = ("Arial", 20), command=lambda: Login(username.get(), password.get(),app))
+login = ctk.CTkButton(button_frame,width = 100,text = "LOGIN", font = ("Arial", 20), command=lambda: [Login(username.get(), password.get(),app),app.destroy()])
 login.pack(side = "left", padx = 20)
 registeration_btn = ctk.CTkButton(button_frame,width = 100,text = "SIGNUP",font = ("Arial", 20), command = lambda : Register())
 registeration_btn.pack(side = "right", padx = 20)
