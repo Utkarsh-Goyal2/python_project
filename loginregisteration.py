@@ -52,7 +52,7 @@ def Register():
     close_button = ctk.CTkButton(registeration, text="Start your journey..(almost)", command=lambda: checking_new_user(name.get(),passcode.get(),registeration))
     close_button.pack(pady=10)
 
-def Login(name,password,window):
+def Login(name,password):
     if not name or not password:
         show_popup("Message", "Username and password cannot be empty.")
         return
