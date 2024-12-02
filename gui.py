@@ -1,43 +1,53 @@
 import customtkinter as ctk
 from PIL import Image,ImageTk
-from loginregisteration import Login,Register
 ctk.set_appearance_mode("dark")
-# Set the color theme (default, blue, green, dark-blue)
 ctk.set_default_color_theme("blue")
+def main():
+    def logout():
+        main_window.destroy() 
+        from loginregisteration import welcome_ui 
+        welcome_ui() 
+    main_window = ctk.CTk()
+    screen_width = main_window.winfo_screenwidth()
+    screen_height = main_window.winfo_screenheight()
+    main_window.geometry(f"{screen_width}x{screen_height}+0+0")
+    main_window.title("Main Application")
+    main_window.grid_rowconfigure(1, weight=1)
+    main_window.grid_columnconfigure(1, weight=1)
+    class centerframe(ctk.CTkFrame):
+        parent = main_window
+        frames = []
+        def __init__(self):
+            super().__init__(centerframe.parent, fg_color="#F3F8F1")
+            self.grid(row=1, column=1, sticky="nsew",pady= 5)
+            if self not in centerframe.frames:
+                centerframe.frames.append(self)
+        def showframe(self):
+            for f in centerframe.frames:
+                f.grid_forget()
+            self.grid(row=1, column=1, sticky="nsew",pady= 5)  
 
-# Create the main application window 
-app = ctk.CTk()
-app.title("---")
-app.geometry("700x600")
+    #leftframe (will containt stuff like history and cart and shit idk)
+    leftframe = ctk.CTkFrame(main_window, width=300, fg_color="#FFF4D2")
+    leftframe.grid(row=0, column=0, rowspan=2, sticky="ns",padx = 5) 
+    home_btn = ctk.CTkButton(leftframe,text = "home", command = lambda: welcomepage.showframe())
+    home_btn.pack()
+    ooga_booga_btn = ctk.CTkButton(leftframe,text = "ooga_booga", command = lambda: ooga_booga.showframe())
+    ooga_booga_btn.pack()
+        #logout button and logo 
+    topframe = ctk.CTkFrame(main_window, fg_color="#FFC2D1", height=150)
+    logout_btn = ctk.CTkButton(topframe,width=100,text="LOGOUT",font=("Arial", 14),fg_color = "#FF5C5C",command= lambda: logout())
+    logout_btn.pack(side = "right")
+    logo_label = ctk.CTkLabel(topframe,text = "WanderEase", font = ("Times new roman", 20,"bold"),text_color = "#333333")
+    logo_label.pack(side = "left",padx = 20,pady = 10)
+    topframe.grid(row=0, column=1, sticky="ew")
 
-#welcome message
-image_path="yo.png"
-image = ctk.CTkImage(light_image=Image.open(image_path), dark_image=Image.open(image_path),size = (600,200))
-label = ctk.CTkLabel(app, text="Welcome to WanderEase!", font=("Berlin Sans FB", 50),bg_color="transparent",image = image,text_color = "white")
-label.pack(pady=70)
-
-#input username 
-username_frame = ctk.CTkFrame(app)
-username_frame.pack(pady=20, anchor="center") 
-username_icon = ctk.CTkImage(light_image=Image.open("username.png"), size=(30, 30))
-uicon_label = ctk.CTkLabel(username_frame, image=username_icon, text="")
-uicon_label.pack(side="left")
-username = ctk.CTkEntry(username_frame,width = 300, placeholder_text="Enter your username",font=("Arial", 20))
-username.pack(side="left")
-#input password
-password_frame = ctk.CTkFrame(app)
-password_frame.pack(pady = 10, anchor = "center")
-password_icon  = ctk.CTkImage(light_image=Image.open("password.png"), size=(30, 30))
-picon_label = ctk.CTkLabel(password_frame,image = password_icon, text = "")
-picon_label.pack(side = "left")
-password = ctk.CTkEntry(password_frame,width = 300, placeholder_text="Enter your password", font = ("Arial", 20),show = "*")
-password.pack(pady = 10)
-#login / register button
-button_frame = ctk.CTkFrame(app)
-button_frame.pack(pady = 20, anchor = "center")
-login = ctk.CTkButton(button_frame,width = 100,text = "LOGIN", font = ("Arial", 20), command=lambda: [Login(username.get(), password.get(),app),app.destroy()])
-login.pack(side = "left", padx = 20)
-registeration_btn = ctk.CTkButton(button_frame,width = 100,text = "SIGNUP",font = ("Arial", 20), command = lambda : Register())
-registeration_btn.pack(side = "right", padx = 20)
-#running
-app.mainloop()
+    welcomepage = centerframe()
+    message = ctk.CTkLabel(welcomepage, text = "What do you want to explore today?", font = ("Arial",30),text_color="#333333")
+    message.pack()
+    ooga_booga = centerframe()
+    checking = ctk.CTkLabel(ooga_booga,text ="oogabooga",font = ("Arial", 30),text_color="#333333")
+    checking.pack()
+    welcomepage.showframe()
+    main_window.mainloop()
+main()
