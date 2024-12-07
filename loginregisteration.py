@@ -83,7 +83,6 @@ def welcome_ui():
     #welcome message
     image_path="yo.png"
     image = ctk.CTkImage(light_image=Image.open(image_path), dark_image=Image.open(image_path),size = (600,200))
-    app.image = image
     label = ctk.CTkLabel(app, text="Welcome to WanderEase!", font=("Berlin Sans FB", 50),bg_color="transparent",image = image,text_color = "white")
     label.pack(pady=70)
 

@@ -17,9 +17,12 @@ def main():
     class centerframe(ctk.CTkFrame):
         parent = main_window
         frames = []
+        image = ctk.CTkImage(light_image=Image.open("aa.jpeg"), dark_image=Image.open("aa.jpeg"),size = (600,200))
         def __init__(self):
             super().__init__(centerframe.parent, fg_color="#F3F8F1")
             self.grid(row=1, column=1, sticky="nsew",pady= 5)
+            # oo = ctk.CTkLabel(self,text = "", image = centerframe.image)
+            # oo.pack()
             if self not in centerframe.frames:
                 centerframe.frames.append(self)
         def showframe(self):
