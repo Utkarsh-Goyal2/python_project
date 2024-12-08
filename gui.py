@@ -23,7 +23,8 @@ def main():
             
     def searching_flight(start,dest):
         if check_input(start,dest):
-            TravelManager.search_flight_packages(start,dest)
+            results=TravelManager.search_flight_packages(start,dest)
+            resultframe(flights,results)
     def searching_car(start, dest):
         if check_input(start,dest):
             TravelManager.search_car_packages(start,dest)
@@ -45,8 +46,6 @@ def main():
         def __init__(self):
             super().__init__(centerframe.parent, fg_color="#F3F8F1")
             self.grid(row=1, column=1, sticky="nsew",pady= 5)
-            # oo = ctk.CTkLabel(self,text = "", image = centerframe.image)
-            # oo.pack()
             if self not in centerframe.frames:
                 centerframe.frames.append(self)
         def showframe(self):
@@ -54,6 +53,18 @@ def main():
                 f.grid_forget()
             self.grid(row=1, column=1, sticky="nsew",pady= 5)  
 
+    class resultframe(ctk.CTkScrollableFrame):
+        frames = []
+        def __init__(self,parent,results):
+            self.parent = parent
+            self.results = results
+            super().__init__(parent,fg_color = "#F5F5F5")
+            self.grid(row = 4, column = 1, sticky = "nsew",pady = 10)
+            if self not in resultframe.frames:
+                resultframe.frames.append(self)
+            for i in results:
+                label = ctk.CTkLabel(self, tezt = f"{i}")
+                label.pack()
 
     #leftframe (will containt stuff like history and cart and stuff)
     leftframe = ctk.CTkFrame(main_window, width=900, fg_color="#FFF4D2")
@@ -64,7 +75,7 @@ def main():
     flights_btn.pack()
 
     car_rentals_btn = ctk.CTkButton(leftframe, text="Car Rentals", command=lambda: car_rentals.showframe())
-    car_rentals_btn.pack()
+    car_rentals_btn.pack() 
 
     hotel_booking_btn = ctk.CTkButton(leftframe, text="Hotel Booking", command=lambda: hotel_booking.showframe())
     hotel_booking_btn.pack()
@@ -112,12 +123,16 @@ def main():
     welcomepage= welcome_page(welcomepage)
     flights = centerframe()
     def flight_page(frame):
-        destination = ctk.CTkEntry(frame, placeholder_text="Enter your destination", font= ("Arial", 20),width = 300)
-        destination.pack()
-        starting_point = ctk.CTkEntry(frame, placeholder_text= "Enter your starting point", font = ("Arial",20),width = 300)
-        starting_point.pack()
-        search = ctk.CTkButton(frame, text = "SEARCH", font= ("Arial", 20), command = lambda: searching_flight(starting_point.get(),destination.get()))
-        search.pack()
+        # Using .grid for layout
+        destination = ctk.CTkEntry(frame, placeholder_text="Enter your destination", font=("Arial", 20), width=300)
+        destination.grid(row=0, column=0, padx=10, pady=10, sticky="ew")  # Place at row 0, column 0
+
+        starting_point = ctk.CTkEntry(frame, placeholder_text="Enter your starting point", font=("Arial", 20), width=300)
+        starting_point.grid(row=1, column=0, padx=10, pady=10, sticky="ew")  # Place at row 1, column 0
+
+        search = ctk.CTkButton(frame, text="SEARCH", font=("Arial", 20), command=lambda: searching_flight(starting_point.get(), destination.get()))
+        search.grid(row=2, column=0, padx=10, pady=20, sticky="ew")  # Place at row 2, column 0
+
         return frame
     flights = flight_page(flights)
     hotel_booking = centerframe()
