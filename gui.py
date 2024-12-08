@@ -21,12 +21,15 @@ def main():
             return False
         return True
             
-    def searching_checking(start,dest):
-        while True:
-            if check_input(start,dest) == False:
-                break
-        TravelManager.search_flight_packages(start,dest)
-
+    def searching_flight(start,dest):
+        if check_input(start,dest) == False:
+            TravelManager.search_flight_packages(start,dest)
+    def searching_car(start, dest):
+        if check_input(start,dest):
+            TravelManager.search_car_packages(start,dest)
+    def searching_hotel(start,dest):
+        if check_input(start,dest):
+            TravelManager.search_hotel_packages(start,dest)
     main_window = ctk.CTk()
     screen_width = main_window.winfo_screenwidth()
     screen_height = main_window.winfo_screenheight()
@@ -113,7 +116,7 @@ def main():
         starting_point.pack()
         start = starting_point.get()
         dest = destination.get()
-        search = ctk.CTkButton(frame, text = "SEARCH", font= ("Arial", 20), command = lambda: searching_checking(start,dest))
+        search = ctk.CTkButton(frame, text = "SEARCH", font= ("Arial", 20), command = lambda: searching_flight(start,dest))
         search.pack()
         return frame
     flights = flight_page(flights)
