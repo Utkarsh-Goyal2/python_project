@@ -1,5 +1,6 @@
 import customtkinter as ctk
 from PIL import Image,ImageTk
+from backend import TravelManager
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 def main():
@@ -7,6 +8,25 @@ def main():
         main_window.destroy() 
         from loginregisteration import welcome_ui 
         welcome_ui() 
+    def check_input(first, second):
+        if first == "" or second == "":
+            popup = ctk.CTkToplevel()
+            popup.geometry("300x150")
+            popup.attributes("-topmost", True)
+            popup.grab_set()
+            label = ctk.CTkLabel(popup, text="Entry cant be empty", font=("Arial", 14))
+            label.pack(pady=20)
+            close_button = ctk.CTkButton(popup, text="Close", command=popup.destroy)
+            close_button.pack(pady=10)
+            return False
+        return True
+            
+    def searching_checking(start,dest):
+        while True:
+            if check_input(start,dest) == False:
+                break
+        TravelManager.search_flight_packages(start,dest)
+
     main_window = ctk.CTk()
     screen_width = main_window.winfo_screenwidth()
     screen_height = main_window.winfo_screenheight()
@@ -40,9 +60,6 @@ def main():
 
     car_rentals_btn = ctk.CTkButton(leftframe, text="Car Rentals", command=lambda: car_rentals.showframe())
     car_rentals_btn.pack()
-
-    trains_btn = ctk.CTkButton(leftframe, text="Trains", command=lambda: trains.showframe())
-    trains_btn.pack()
 
     hotel_booking_btn = ctk.CTkButton(leftframe, text="Hotel Booking", command=lambda: hotel_booking.showframe())
     hotel_booking_btn.pack()
@@ -80,9 +97,6 @@ def main():
         car_rentals_btn = ctk.CTkButton(frame, text="Car Rentals", command=lambda: car_rentals.showframe(),font = ("arial", 30), width=150, height=80, fg_color = "#FF7F50")
         car_rentals_btn.grid(row=2, column=1, padx=20, pady=5, sticky="nsew")
 
-        
-        trains_btn = ctk.CTkButton(frame, text="Trains", command=lambda: trains.showframe(),font = ("arial", 30), width=150, height=80, fg_color = "#5CA9E6")
-        trains_btn.grid(row=3, column=0, padx=20, pady=10, sticky="nsew")
 
         hotel_booking_btn = ctk.CTkButton(frame, text="Hotel Booking", command=lambda: hotel_booking.showframe(),font = ("arial", 30), width=150, height=80, fg_color = "#4CAF50")
         hotel_booking_btn.grid(row=3, column=1, padx=20, pady=10, sticky="nsew")
@@ -97,16 +111,12 @@ def main():
         destination.pack()
         starting_point = ctk.CTkEntry(frame, placeholder_text= "Enter your starting point", font = ("Arial",20),width = 300)
         starting_point.pack()
+        start = starting_point.get()
+        dest = destination.get()
+        search = ctk.CTkButton(frame, text = "SEARCH", font= ("Arial", 20), command = lambda: searching_checking(start,dest))
+        search.pack()
         return frame
     flights = flight_page(flights)
-    trains = centerframe()
-    def train_page(frame):
-        destination = ctk.CTkEntry(frame, placeholder_text="Enter your destination", font= ("Arial", 20),width = 300)
-        destination.pack()
-        starting_point = ctk.CTkEntry(frame, placeholder_text= "Enter your starting point", font = ("Arial",20),width = 300)
-        starting_point.pack()
-        return frame
-    trains = train_page(trains)
     hotel_booking = centerframe()
     def hotel_booking_page(frame):
         pass
@@ -114,7 +124,7 @@ def main():
     def car_rental_page(frame):
         destination = ctk.CTkEntry(frame, placeholder_text="Enter the city", font= ("Arial", 20), width = 300)
         destination.pack()
-        return frame
+        return frame    
     car_rentals = car_rental_page(car_rentals)
     welcomepage.showframe()
     main_window.mainloop()
