@@ -77,8 +77,9 @@ class CarRental(TravelPackage):
 
 class TravelManager:
 
-    def search_flight_packages(self, start, destination, file="packages_flight.csv"):
+    def search_flight_packages(start, destination):
         """Search flights by start and destination."""
+        file="packages_flight.csv"
         results = []
         with open(file, mode="r") as f:
             reader = csv.reader(f)
@@ -92,7 +93,7 @@ class TravelManager:
         else:
             print("No matching flight packages found.")
 
-    def search_hotel_packages(self, city, min_rating=0, file="packages_hotel.csv"):
+    def search_hotel_packages(city, min_rating=0, file="packages_hotel.csv"):
         """Search hotels by city and minimum rating."""
         results = []
         with open(file, mode="r") as f:
@@ -107,7 +108,7 @@ class TravelManager:
         else:
             print("No matching hotel packages found.")
 
-    def search_car_packages(self, destination, min_seats, file="packages_car.csv"):
+    def search_car_packages(destination, min_seats, file="packages_car.csv"):
         """Search car rentals by destination and minimum number of seats."""
         results = []
         with open(file, mode="r") as f:
