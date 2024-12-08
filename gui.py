@@ -9,7 +9,7 @@ def main():
         from loginregisteration import welcome_ui 
         welcome_ui() 
     def check_input(first, second):
-        if first == "" or second == "":
+        if not first or not second:
             popup = ctk.CTkToplevel()
             popup.geometry("300x150")
             popup.attributes("-topmost", True)
@@ -22,14 +22,16 @@ def main():
         return True
             
     def searching_flight(start,dest):
-        if check_input(start,dest) == False:
+        if check_input(start,dest):
             TravelManager.search_flight_packages(start,dest)
     def searching_car(start, dest):
         if check_input(start,dest):
             TravelManager.search_car_packages(start,dest)
-    def searching_hotel(start,dest):
-        if check_input(start,dest):
-            TravelManager.search_hotel_packages(start,dest)
+    def searching_hotel(rating, dest):
+        if check_input(dest, "lmo"):
+            if not rating:
+                rating = 0
+            TravelManager.search_hotel_packages(rating,dest)
     main_window = ctk.CTk()
     screen_width = main_window.winfo_screenwidth()
     screen_height = main_window.winfo_screenheight()
@@ -114,19 +116,28 @@ def main():
         destination.pack()
         starting_point = ctk.CTkEntry(frame, placeholder_text= "Enter your starting point", font = ("Arial",20),width = 300)
         starting_point.pack()
-        start = starting_point.get()
-        dest = destination.get()
-        search = ctk.CTkButton(frame, text = "SEARCH", font= ("Arial", 20), command = lambda: searching_flight(start,dest))
+        search = ctk.CTkButton(frame, text = "SEARCH", font= ("Arial", 20), command = lambda: searching_flight(starting_point.get(),destination.get()))
         search.pack()
         return frame
     flights = flight_page(flights)
     hotel_booking = centerframe()
     def hotel_booking_page(frame):
-        pass
+        destination = ctk.CTkEntry(frame, placeholder_text="Enter the city", font = ("Arial",20),width = 300)
+        destination.pack()
+        rating = ctk.CTkEntry(frame,placeholder_text="Enter minimum price", font = ("Arial", 20), width = 300)
+        rating.pack()
+        search = ctk.CTkButton(frame, text = "SEARCH", font= ("Arial", 20), command = lambda: searching_hotel(rating.get(),destination.get()))
+        search.pack()
+        return frame
+    hotel_booking=hotel_booking_page(hotel_booking)
     car_rentals = centerframe()
     def car_rental_page(frame):
         destination = ctk.CTkEntry(frame, placeholder_text="Enter the city", font= ("Arial", 20), width = 300)
         destination.pack()
+        no_of_seats= ctk.CTkEntry(frame, placeholder_text="Enter no. of seats", font = ("Arial", 20), width = 300)
+        no_of_seats.pack()
+        search = ctk.CTkButton(frame, text = "SEARCH", font= ("Arial", 20), command = lambda: searching_car(no_of_seats.get(),destination.get()))
+        search.pack()
         return frame    
     car_rentals = car_rental_page(car_rentals)
     welcomepage.showframe()
