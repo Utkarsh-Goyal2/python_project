@@ -1,0 +1,441 @@
+﻿Package Id,From,To,Flight_Name,Flight_Departure,Flight_Arrival,Flight_Price,Availibility,No of seats
+F001,Delhi,Mumbai,Air India,15:30:00,17:45:00,16245,Yes,120
+F002,Delhi,Mumbai,IndiGo,04:00:00,06:20:00,17964,Yes,120
+F003,Delhi,Mumbai,IndiGo,14:00:00,16:20:00,17964,Yes,120
+F004,Delhi,Mumbai,IndiGo,15:00:00,17:20:00,17964,Yes,120
+F005,Delhi,Bengaluru,IndiGo,23:00:00,06:15:00,10363,Yes,120
+F006,Delhi,Bengaluru,IndiGo,19:00:00,22:00:00,11308,Yes,120
+F007,Delhi,Bengaluru,Air-India Express,21:40:00,05:00:00,11598,Yes,120
+F008,Delhi,Bengaluru,IndiGo,18:15:00,21:10:00,11833,Yes,120
+F009,Delhi,Chennai,IndiGo,21:45:00,05:00:00,7528,Yes,120
+F010,Delhi,Chennai,IndiGo,09:30:00,12:20:00,7528,Yes,120
+F011,Delhi,Chennai,IndiGo,23:00:00,06:20:00,7528,Yes,120
+F012,Delhi,Chennai,SpiceJet,04:15:00,07:00:00,7753,Yes,120
+F013,Delhi,Kolkata,SpiceJet,22:30:00,05:10:00,10505,Yes,120
+F014,Delhi,Kolkata,IndiGo,19:30:00,21:35:00,12043,Yes,120
+F015,Delhi,Kolkata,Air-India Express,05:00:00,11:35:00,9444,Yes,120
+F016,Delhi,Kolkata,IndiGo,17:40:00,22:35:00,10473,Yes,120
+F017,Delhi,Kolkata,IndiGo,21:15:00,23:20:00,13198,Yes,120
+F018,Delhi,Hyderabad,Air India,14:45:00,17:00:00,8700,Yes,120
+F019,Delhi,Hyderabad,IndiGo,04:35:00,06:50:00,9733,Yes,120
+F020,Delhi,Hyderabad,IndiGo,21:30:00,23:45:00,9733,Yes,120
+F021,Delhi,Hyderabad,IndiGo,15:30:00,17:45:00,10048,Yes,120
+F022,Delhi,Cochin,IndiGo,17:30:00,22:40:00,13776,Yes,120
+F023,Delhi,Cochin,Air-India Express,16:05:00,19:05:00,15875,Yes,120
+F024,Delhi,Cochin,IndiGo,02:30:00,09:05:00,13167,Yes,120
+F025,Delhi,Cochin,IndiGo,12:15:00,18:50:00,13413,Yes,120
+F026,Delhi,Cochin,IndiGo,16:20:00,22:55:00,13413,Yes,120
+F027,Delhi,Ahmedabad,SpiceJet,23:30:00,05:40:00,13235,Yes,120
+F028,Delhi,Ahmedabad,Akasa Air,23:10:00,05:25:00,14425,Yes,120
+F029,Delhi,Ahmedabad,IndiGo,22:15:00,04:30:00,16849,Yes,120
+F030,Delhi,Ahmedabad,Air India,19:45:00,21:30:00,17108,Yes,120
+F031,Delhi,Goa,Air India,18:40:00,21:20:00,9120,Yes,120
+F032,Delhi,Goa,Akasa Air,19:45:00,22:30:00,9802,Yes,120
+F033,Delhi,Goa,IndiGo,18:00:00,20:30:00,9829,Yes,120
+F034,Delhi,Goa,Akasa Air,08:30:00,11:20:00,9802,Yes,120
+F035,Delhi,Guwahati,Air-India Express,20:35:00,22:55:00,12414,Yes,120
+F036,Delhi,Guwahati,IndiGo,20:25:00,22:40:00,13615,Yes,120
+F037,Delhi,Guwahati,Air-India Express,04:30:00,06:50:00,13614,Yes,120
+F038,Delhi,Guwahati,Air-India Express,07:20:00,09:40:00,13614,Yes,120
+F039,Mumbai,Guwahati,IndiGo,23:30:00,06:15:00,5362,Yes,120
+F040,Mumbai,Guwahati,Air India,22:50:00,05:30:00,5770,Yes,120
+F041,Mumbai,Guwahati,Air India,21:55:00,04:40:00,5770,Yes,120
+F042,Mumbai,Guwahati,IndiGo,22:15:00,05:00:00,5796,Yes,120
+F043,Mumbai,Guwahati,Akasa Air,23:55:00,06:15:00,4559,Yes,120
+F044,Mumbai,Guwahati,Akasa Air,22:35:00,04:50:00,5476,Yes,120
+F045,Mumbai,Guwahati,Air-India Express,22:35:00,04:55:00,5547,Yes,120
+F046,Mumbai,Guwahati,IndiGo,16:45:00,18:30:00,6748,Yes,120
+F047,Mumbai,Chennai,IndiGo,15:45:00,17:40:00,4982,Yes,120
+F048,Mumbai,Chennai,Air India,17:50:00,19:50:00,5082,Yes,120
+F049,Mumbai,Chennai,IndiGo,17:35:00,19:40:00,5717,Yes,120
+F050,Mumbai,Chennai,Air India,18:10:00,20:10:00,5770,Yes,120
+F051,Mumbai,Kolkata,Akasa Air,18:10:00,20:55:00,5332,Yes,120
+F052,Mumbai,Kolkata,Akasa Air,19:05:00,22:00:00,5288,Yes,120
+F053,Mumbai,Kolkata,Air India,21:40:00,00:15:00,5857,Yes,120
+F054,Mumbai,Kolkata,IndiGo,20:30:00,23:05:00,6185,Yes,120
+F055,Mumbai,Hyderabad,IndiGo,04:05:00,05:30:00,4016,Yes,120
+F056,Mumbai,Hyderabad,IndiGo,05:40:00,07:05:00,4016,Yes,120
+F057,Mumbai,Hyderabad,IndiGo,23:15:00,00:40:00,4016,Yes,120
+F058,Mumbai,Hyderabad,IndiGo,16:30:00,18:00:00,4016,Yes,120
+F059,Mumbai,Hyderabad,IndiGo,00:45:00,02:40:00,5182,Yes,120
+F060,Mumbai,Hyderabad,IndiGo,19:30:00,21:25:00,5182,Yes,120
+F061,Mumbai,Hyderabad,Air India,19:35:00,21:35:00,5261,Yes,120
+F062,Mumbai,Hyderabad,Air India,17:15:00,19:15:00,5455,Yes,120
+F063,Mumbai,Ahmedabad,Air India,22:45:00,23:55:00,4666,Yes,120
+F064,Mumbai,Ahmedabad,IndiGo,23:15:00,04:55:00,5270,Yes,120
+F065,Mumbai,Ahmedabad,Akasa Air,21:10:00,22:40:00,6825,Yes,120
+F066,Mumbai,Ahmedabad,IndiGo,16:40:00,17:50:00,8252,Yes,120
+F067,Mumbai,Goa,IndiGo,18:45:00,20:00:00,6494,Yes,120
+F068,Mumbai,Goa,Air India,15:30:00,16:50:00,6676,Yes,120
+F069,Mumbai,Goa,SpiceJet,14:50:00,16:25:00,7519,Yes,120
+F070,Mumbai,Goa,Air India,15:30:00,17:00:00,7707,Yes,120
+F071,Mumbai,Guwahati,IndiGo,17:30:00,22:40:00,10693,Yes,120
+F072,Mumbai,Guwahati,IndiGo,21:00:00,23:55:00,13532,Yes,120
+F073,Mumbai,Guwahati,IndiGo,15:15:00,22:40:00,10693,Yes,120
+F074,Mumbai,Guwahati,IndiGo,15:15:00,20:45:00,12093,Yes,120
+F075,Mumbai,Guwahati,IndiGo,12:00:00,19:40:00,10922,Yes,120
+F076,Bengaluru,Delhi,Air India,12:20:00,15:10:00,6751,Yes,120
+F077,Bengaluru,Delhi,Air India,13:55:00,16:50:00,6751,Yes,120
+F078,Bengaluru,Delhi,SpiceJet,22:30:00,01:15:00,7500,Yes,120
+F079,Bengaluru,Delhi,Air India,13:15:00,16:25:00,6751,Yes,120
+F080,Bengaluru,Mumbai,Air-India Express,01:25:00,02:50:00,5175,Yes,120
+F081,Bengaluru,Mumbai,Akasa Air,03:50:00,05:35:00,5388,Yes,120
+F082,Bengaluru,Mumbai,IndiGo,03:00:00,05:00:00,5558,Yes,120
+F083,Bengaluru,Mumbai,IndiGo,12:50:00,14:40:00,6510,Yes,120
+F084,Bengaluru,Mumbai,IndiGo,13:55:00,16:05:00,6510,Yes,120
+F085,Bengaluru,Chennai,IndiGo,16:30:00,17:30:00,6450,Yes,120
+F086,Bengaluru,Chennai,Air India,14:00:00,15:10:00,6438,Yes,120
+F087,Bengaluru,Chennai,Air-India Express,16:35:00,17:35:00,7081,Yes,120
+F088,Bengaluru,Chennai,IndiGo,17:30:00,18:30:00,7080,Yes,120
+F089,Bengaluru,Kolkata,SpiceJet,18:00:00,20:35:00,6574,Yes,120
+F090,Bengaluru,Kolkata,IndiGo,22:15:00,00:45:00,6975,Yes,120
+F091,Bengaluru,Kolkata,IndiGo,18:50:00,23:45:00,5310,Yes,120
+F092,Bengaluru,Kolkata,Air India,16:40:00,19:15:00,7761,Yes,120
+F093,Bengaluru,Kolkata,Air-India Express,20:10:00,22:50:00,8128,Yes,120
+F094,Bengaluru,Hyderabad,Akasa Air,06:30:00,07:40:00,4613,Yes,120
+F095,Bengaluru,Hyderabad,IndiGo,23:15:00,04:55:00,4665,Yes,120
+F096,Bengaluru,Hyderabad,IndiGo,04:55:00,06:15:00,4665,Yes,120
+F097,Bengaluru,Hyderabad,Alliance Air,20:50:00,22:30:00,4770,Yes,120
+F098,Bengaluru,Cochin,Air India,21:10:00,22:10:00,3636,Yes,120
+F099,Bengaluru,Cochin,Air-India Express,15:50:00,16:50:00,4664,Yes,120
+F100,Bengaluru,Cochin,Air India,19:15:00,20:25:00,4581,Yes,120
+F101,Bengaluru,Cochin,IndiGo,20:05:00,21:10:00,4875,Yes,120
+F102,Bengaluru,Ahmedabad,Air India,20:50:00,23:15:00,6550,Yes,120
+F103,Bengaluru,Ahmedabad,Akasa Air,21:45:00,00:20:00,6519,Yes,120
+F104,Bengaluru,Ahmedabad,IndiGo,19:50:00,22:05:00,6726,Yes,120
+F105,Bengaluru,Ahmedabad,Air India,14:40:00,16:55:00,6744,Yes,120
+F106,Bengaluru,Goa,IndiGo,19:05:00,20:25:00,4469,Yes,120
+F107,Bengaluru,Goa,Air India,17:10:00,18:20:00,5316,Yes,120
+F108,Bengaluru,Goa,Air India,06:10:00,07:30:00,5316,Yes,120
+F109,Bengaluru,Goa,Air India,12:45:00,14:05:00,6301,Yes,120
+F110,Bengaluru,Guwahati,IndiGo,18:15:00,21:15:00,8205,Yes,120
+F111,Bengaluru,Guwahati,Akasa Air,17:10:00,20:20:00,8252,Yes,120
+F112,Bengaluru,Guwahati,Air-India Express,15:00:00,18:00:00,8904,Yes,120
+F113,Bengaluru,Guwahati,IndiGo,17:05:00,22:40:00,8014,Yes,120
+F114,Bengaluru,Guwahati,Air-India Express,16:35:00,21:00:00,8804,Yes,120
+F115,Chennai,Delhi,SpiceJet,20:05:00,23:00:00,5375,Yes,120
+F116,Chennai,Delhi,IndiGo,21:05:00,00:10:00,5375,Yes,120
+F117,Chennai,Delhi,Air India,20:40:00,23:25:00,5771,Yes,120
+F118,Chennai,Delhi,Air India,15:55:00,18:50:00,5771,Yes,120
+F119,Chennai,Mumbai,IndiGo,11:10:00,13:15:00,5150,Yes,120
+F120,Chennai,Mumbai,IndiGo,12:45:00,14:50:00,5150,Yes,120
+F121,Chennai,Mumbai,IndiGo,22:30:00,00:35:00,5150,Yes,120
+F122,Chennai,Mumbai,Akasa Air,14:25:00,16:30:00,5287,Yes,120
+F123,Chennai,Bengaluru,Air-India Express,22:05:00,23:10:00,5215,Yes,120
+F124,Chennai,Bengaluru,IndiGo,23:10:00,00:15:00,5625,Yes,120
+F125,Chennai,Bengaluru,IndiGo,07:05:00,11:00:00,6441,Yes,120
+F126,Chennai,Bengaluru,IndiGo,17:50:00,21:55:00,6441,Yes,120
+F127,Chennai,Bengaluru,IndiGo,19:15:00,20:15:00,9207,Yes,120
+F128,Chennai,Kolkata,Air-India Express,22:45:00,05:35:00,6238,Yes,120
+F129,Chennai,Kolkata,IndiGo,21:20:00,23:30:00,7997,Yes,120
+F130,Chennai,Kolkata,IndiGo,18:15:00,20:30:00,9181,Yes,120
+F131,Chennai,Kolkata,IndiGo,17:55:00,22:40:00,9155,Yes,120
+F132,Chennai,Kolkata,IndiGo,12:10:00,14:20:00,11491,Yes,120
+F133,Chennai,Hyderabad,IndiGo,22:35:00,23:50:00,5201,Yes,120
+F134,Chennai,Hyderabad,SpiceJet,10:50:00,14:05:00,4167,Yes,120
+F135,Chennai,Hyderabad,IndiGo,21:15:00,22:30:00,5831,Yes,120
+F136,Chennai,Hyderabad,Air-India Express,09:20:00,10:35:00,6547,Yes,120
+F137,Chennai,Cochin,IndiGo,21:25:00,22:40:00,6162,Yes,120
+F138,Chennai,Cochin,SpiceJet,18:55:00,20:55:00,6635,Yes,120
+F139,Chennai,Cochin,IndiGo,20:00:00,21:15:00,6792,Yes,120
+F140,Chennai,Cochin,IndiGo,09:25:00,10:40:00,8472,Yes,120
+F141,Chennai,Ahmedabad,IndiGo,04:00:00,06:20:00,10362,Yes,120
+F142,Chennai,Ahmedabad,IndiGo,22:30:00,03:55:00,8509,Yes,120
+F143,Chennai,Ahmedabad,IndiGo,01:10:00,06:10:00,9194,Yes,120
+F144,Chennai,Ahmedabad,IndiGo,22:30:00,05:35:00,9632,Yes,120
+F145,Chennai,Ahmedabad,IndiGo,11:10:00,17:50:00,12614,Yes,120
+F146,Chennai,Ahmedabad,IndiGo,11:10:00,16:40:00,13738,Yes,120
+F147,Chennai,Goa,Air India,15:25:00,20:10:00,11837,Yes,120
+F148,Chennai,Goa,Air India,09:35:00,16:50:00,11989,Yes,120
+F149,Chennai,Goa,IndiGo,16:45:00,20:25:00,14629,Yes,120
+F150,Chennai,Goa,Air India,09:35:00,20:10:00,11149,Yes,120
+F151,Chennai,Goa,IndiGo,22:35:00,08:55:00,12093,Yes,120
+F152,Chennai,Goa,Air India,22:05:00,07:30:00,12824,Yes,120
+F153,Chennai,Guwahati,Air-India Express,18:10:00,21:00:00,8127,Yes,120
+F154,Chennai,Guwahati,IndiGo,15:50:00,18:25:00,8428,Yes,120
+F155,Chennai,Guwahati,IndiGo,08:55:00,11:35:00,10528,Yes,120
+F156,Chennai,Guwahati,IndiGo,12:10:00,20:45:00,11549,Yes,120
+F157,Chennai,Guwahati,IndiGo,12:10:00,22:40:00,11549,Yes,120
+F158,Kolkata,Delhi,SpiceJet,05:35:00,08:00:00,6856,Yes,120
+F159,Kolkata,Delhi,IndiGo,20:50:00,23:15:00,6910,Yes,120
+F160,Kolkata,Delhi,IndiGo,19:15:00,21:40:00,7382,Yes,120
+F161,Kolkata,Delhi,IndiGo,05:30:00,08:00:00,7382,Yes,120
+F162,Kolkata,Mumbai,SpiceJet,11:25:00,14:10:00,10722,Yes,120
+F163,Kolkata,Mumbai,Akasa Air,04:50:00,08:00:00,11178,Yes,120
+F164,Kolkata,Mumbai,IndiGo,21:45:00,00:50:00,11591,Yes,120
+F165,Kolkata,Mumbai,Akasa Air,21:35:00,00:30:00,12120,Yes,120
+F166,Kolkata,Mumbai,Akasa Air,22:40:00,01:40:00,12120,Yes,120
+F167,Kolkata,Bengaluru,Air India,15:30:00,18:05:00,12999,Yes,120
+F168,Kolkata,Bengaluru,IndiGo,19:00:00,01:35:00,9946,Yes,120
+F169,Kolkata,Bengaluru,SpiceJet,07:50:00,10:20:00,13786,Yes,120
+F170,Kolkata,Bengaluru,IndiGo,05:30:00,11:05:00,11783,Yes,120
+F171,Kolkata,Bengaluru,Akasa Air,22:55:00,01:40:00,14500,Yes,120
+F172,Kolkata,Chennai,Air India,17:00:00,19:30:00,7053,Yes,120
+F173,Kolkata,Chennai,IndiGo,09:05:00,15:15:00,9243,Yes,120
+F174,Kolkata,Chennai,IndiGo,05:55:00,12:10:00,9243,Yes,120
+F175,Kolkata,Chennai,IndiGo,21:45:00,00:10:00,12370,Yes,120
+F176,Kolkata,Chennai,Air-India Express,19:50:00,22:05:00,13630,Yes,120
+F177,Kolkata,Hyderabad,Air-India Express,14:20:00,16:45:00,10007,Yes,120
+F178,Kolkata,Hyderabad,Air-India Express,20:20:00,22:35:00,10847,Yes,120
+F179,Kolkata,Hyderabad,IndiGo,05:25:00,07:40:00,11897,Yes,120
+F180,Kolkata,Hyderabad,IndiGo,18:25:00,20:40:00,11897,Yes,120
+F181,Kolkata,Cochin,Air India,15:30:00,20:25:00,15909,Yes,120
+F182,Kolkata,Cochin,Air India,17:30:00,07:00:00,11623,Yes,120
+F183,Kolkata,Cochin,Air India,15:30:00,22:10:00,15909,Yes,120
+F184,Kolkata,Cochin,Air-India Express,19:50:00,02:00:00,17361,Yes,120
+F185,Kolkata,Cochin,IndiGo,17:00:00,22:50:00,18516,Yes,120
+F186,Kolkata,Cochin,IndiGo,05:25:00,10:50:00,19330,Yes,120
+F187,Kolkata,Ahmedabad,Akasa Air,14:20:00,17:10:00,13201,Yes,120
+F188,Kolkata,Ahmedabad,IndiGo,21:10:00,00:15:00,14363,Yes,120
+F189,Kolkata,Ahmedabad,IndiGo,05:50:00,08:45:00,17131,Yes,120
+F190,Kolkata,Ahmedabad,Air India,20:25:00,08:00:00,11867,Yes,120
+F191,Kolkata,Ahmedabad,Air India,20:00:00,08:00:00,11867,Yes,120
+F192,Kolkata,Goa,IndiGo,07:45:00,10:35:00,8702,Yes,120
+F193,Kolkata,Goa,Air India,07:00:00,15:10:00,12614,Yes,120
+F194,Kolkata,Goa,Air India,04:50:00,15:10:00,13666,Yes,120
+F195,Kolkata,Goa,Air India,07:00:00,20:55:00,11701,Yes,120
+F196,Kolkata,Goa,Air India,06:40:00,15:10:00,15186,Yes,120
+F197,Kolkata,Goa,Air India,14:20:00,20:20:00,16610,Yes,120
+F198,Kolkata,Guwahati,SpiceJet,17:50:00,19:00:00,5053,Yes,120
+F199,Kolkata,Guwahati,Alliance Air,19:00:00,20:35:00,4855,Yes,120
+F200,Kolkata,Guwahati,IndiGo,21:30:00,22:40:00,6454,Yes,120
+F201,Kolkata,Guwahati,IndiGo,19:35:00,20:45:00,7054,Yes,120
+F202,Hyderabad,Delhi,IndiGo,18:00:00,20:30:00,7120,Yes,120
+F203,Hyderabad,Delhi,IndiGo,19:15:00,21:40:00,7382,Yes,120
+F204,Hyderabad,Delhi,IndiGo,20:50:00,23:15:00,7382,Yes,120
+F205,Hyderabad,Delhi,Air India,20:00:00,22:35:00,7716,Yes,120
+F206,Hyderabad,Mumbai,IndiGo,23:35:00,05:45:00,4586,Yes,120
+F207,Hyderabad,Mumbai,Air India,13:20:00,14:50:00,4637,Yes,120
+F208,Hyderabad,Mumbai,Air India,13:20:00,15:05:00,4637,Yes,120
+F209,Hyderabad,Mumbai,Air India,17:15:00,19:05:00,4637,Yes,120
+F210,Hyderabad,Mumbai,Air India,17:55:00,19:30:00,4804,Yes,120
+F211,Hyderabad,Bengaluru,IndiGo,15:30:00,19:25:00,4876,Yes,120
+F212,Hyderabad,Bengaluru,IndiGo,23:50:00,01:05:00,7421,Yes,120
+F213,Hyderabad,Bengaluru,Air-India Express,23:55:00,01:10:00,7737,Yes,120
+F214,Hyderabad,Bengaluru,Akasa Air,13:35:00,14:40:00,8163,Yes,120
+F215,Hyderabad,Bengaluru,Air-India Express,23:00:00,00:15:00,8471,Yes,120
+F216,Hyderabad,Chennai,IndiGo,23:15:00,00:25:00,6432,Yes,120
+F217,Hyderabad,Chennai,SpiceJet,14:35:00,17:55:00,6634,Yes,120
+F218,Hyderabad,Chennai,IndiGo,21:30:00,22:55:00,7738,Yes,120
+F219,Hyderabad,Chennai,IndiGo,19:25:00,20:45:00,8510,Yes,120
+F220,Hyderabad,Chennai,IndiGo,17:00:00,18:20:00,9372,Yes,120
+F221,Hyderabad,Kolkata,IndiGo,21:45:00,23:45:00,6260,Yes,120
+F222,Hyderabad,Kolkata,IndiGo,20:00:00,22:10:00,6260,Yes,120
+F223,Hyderabad,Kolkata,Air-India Express,23:10:00,01:15:00,6684,Yes,120
+F224,Hyderabad,Kolkata,IndiGo,18:00:00,20:00:00,7106,Yes,120
+F225,Hyderabad,Cochin,IndiGo,19:55:00,21:30:00,7306,Yes,120
+F226,Hyderabad,Cochin,IndiGo,13:55:00,15:30:00,7570,Yes,120
+F227,Hyderabad,Cochin,IndiGo,21:15:00,22:50:00,7570,Yes,120
+F228,Hyderabad,Cochin,IndiGo,18:20:00,19:55:00,7831,Yes,120
+F229,Hyderabad,Cochin,Air-India Express,17:30:00,19:10:00,11430,Yes,120
+F230,Hyderabad,Ahmedabad,IndiGo,22:35:00,04:55:00,8156,Yes,120
+F231,Hyderabad,Ahmedabad,Air India,19:05:00,11:20:00,10717,Yes,120
+F232,Hyderabad,Ahmedabad,Air India,14:45:00,23:15:00,13825,Yes,120
+F233,Hyderabad,Ahmedabad,Air India,22:40:00,19:30:00,11717,Yes,120
+F234,Hyderabad,Ahmedabad,Air India,13:10:00,11:20:00,10717,Yes,120
+F235,Hyderabad,Ahmedabad,Air India,17:15:00,22:30:00,18907,Yes,120
+F236,Hyderabad,Goa,Fly91,21:15:00,22:55:00,5993,Yes,120
+F237,Hyderabad,Goa,IndiGo,19:25:00,20:40:00,7225,Yes,120
+F238,Hyderabad,Goa,Air India,19:05:00,20:20:00,7273,Yes,120
+F239,Hyderabad,Goa,Air India,13:10:00,14:30:00,7551,Yes,120
+F240,Hyderabad,Goa,Star Air,09:30:00,15:15:00,9349,Yes,120
+F241,Hyderabad,Guwahati,IndiGo,17:15:00,19:40:00,12598,Yes,120
+F242,Hyderabad,Guwahati,IndiGo,18:00:00,22:40:00,11252,Yes,120
+F243,Hyderabad,Guwahati,IndiGo,21:45:00,07:00:00,10472,Yes,120
+F244,Hyderabad,Guwahati,IndiGo,11:55:00,22:40:00,10155,Yes,120
+F245,Hyderabad,Guwahati,Air-India Express,23:10:00,12:00:00,9095,Yes,120
+F246,Hyderabad,Guwahati,IndiGo,21:25:00,08:30:00,10142,Yes,120
+F247,Cochin,Delhi,IndiGo,16:05:00,19:20:00,8693,Yes,120
+F248,Cochin,Delhi,Air-India Express,19:35:00,22:55:00,8692,Yes,120
+F249,Cochin,Delhi,IndiGo,18:55:00,00:40:00,7888,Yes,120
+F250,Cochin,Delhi,Air India,15:20:00,18:40:00,10235,Yes,120
+F251,Cochin,Delhi,IndiGo,19:20:00,02:10:00,7496,Yes,120
+F252,Cochin,Mumbai,IndiGo,13:30:00,15:35:00,5201,Yes,120
+F253,Cochin,Mumbai,IndiGo,16:35:00,18:40:00,5201,Yes,120
+F254,Cochin,Mumbai,IndiGo,22:15:00,00:20:00,5201,Yes,120
+F255,Cochin,Mumbai,Akasa Air,12:30:00,14:40:00,5202,Yes,120
+F256,Cochin,Mumbai,Air India,12:40:00,14:55:00,5270,Yes,120
+F257,Cochin,Bengaluru,Air-India Express,18:20:00,19:30:00,5068,Yes,120
+F258,Cochin,Bengaluru,Alliance Air,19:00:00,20:25:00,5700,Yes,120
+F259,Cochin,Bengaluru,Air India,22:50:00,23:50:00,6036,Yes,120
+F260,Cochin,Bengaluru,IndiGo,21:45:00,22:50:00,6120,Yes,120
+F261,Cochin,Chennai,IndiGo,15:55:00,17:05:00,2690,Yes,120
+F262,Cochin,Chennai,Air-India Express,22:45:00,23:45:00,2869,Yes,120
+F263,Cochin,Chennai,SpiceJet,21:20:00,22:40:00,2812,Yes,120
+F264,Cochin,Chennai,IndiGo,19:20:00,20:30:00,3075,Yes,120
+F265,Cochin,Kolkata,Air-India Express,15:50:00,18:55:00,9975,Yes,120
+F266,Cochin,Kolkata,IndiGo,16:00:00,22:10:00,9559,Yes,120
+F267,Cochin,Kolkata,IndiGo,17:20:00,23:45:00,9642,Yes,120
+F268,Cochin,Kolkata,IndiGo,16:00:00,23:45:00,9559,Yes,120
+F269,Cochin,Kolkata,Air-India Express,19:50:00,01:15:00,11081,Yes,120
+F270,Cochin,Kolkata,IndiGo,15:55:00,20:30:00,11746,Yes,120
+F271,Cochin,Hyderabad,IndiGo,17:20:00,18:55:00,5574,Yes,120
+F272,Cochin,Hyderabad,IndiGo,16:00:00,17:30:00,5776,Yes,120
+F273,Cochin,Hyderabad,IndiGo,23:25:00,01:05:00,5776,Yes,120
+F274,Cochin,Hyderabad,IndiGo,09:40:00,11:15:00,6824,Yes,120
+F275,Cochin,Hyderabad,IndiGo,11:35:00,13:10:00,7102,Yes,120
+F276,Cochin,Ahmedabad,IndiGo,18:55:00,21:25:00,8115,Yes,120
+F277,Cochin,Ahmedabad,Air India,15:50:00,23:55:00,8369,Yes,120
+F278,Cochin,Ahmedabad,IndiGo,22:15:00,03:55:00,10182,Yes,120
+F279,Cochin,Ahmedabad,IndiGo,22:15:00,05:35:00,9534,Yes,120
+F280,Cochin,Ahmedabad,Air India,20:55:00,06:50:00,8418,Yes,120
+F281,Cochin,Ahmedabad,IndiGo,21:45:00,03:30:00,10919,Yes,120
+F282,Cochin,Goa,Air India,22:50:00,12:00:00,10402,Yes,120
+F283,Cochin,Goa,IndiGo,13:50:00,20:25:00,12499,Yes,120
+F284,Cochin,Goa,Air India,22:50:00,10:00:00,12583,Yes,120
+F285,Cochin,Goa,IndiGo,10:40:00,20:25:00,11701,Yes,120
+F286,Cochin,Goa,Air India,12:40:00,19:25:00,13786,Yes,120
+F287,Cochin,Goa,Air India,10:10:00,19:25:00,13786,Yes,120
+F288,Cochin,Guwahati,IndiGo,11:10:00,18:25:00,12474,Yes,120
+F289,Cochin,Guwahati,Air-India Express,19:35:00,06:50:00,13391,Yes,120
+F290,Cochin,Guwahati,IndiGo,13:50:00,21:15:00,15837,Yes,120
+F291,Cochin,Guwahati,IndiGo,10:40:00,21:15:00,15077,Yes,120
+F292,Cochin,Guwahati,IndiGo,11:35:00,19:40:00,16555,Yes,120
+F293,Cochin,Guwahati,Air-India Express,19:50:00,09:45:00,13391,Yes,120
+F294,Ahmedabad,Delhi,IndiGo,21:00:00,22:40:00,4645,Yes,120
+F295,Ahmedabad,Delhi,IndiGo,23:00:00,05:10:00,4645,Yes,120
+F296,Ahmedabad,Delhi,Air India,22:10:00,23:55:00,4656,Yes,120
+F297,Ahmedabad,Delhi,Air India,23:00:00,05:15:00,4656,Yes,120
+F298,Ahmedabad,Mumbai,IndiGo,23:45:00,05:35:00,6764,Yes,120
+F299,Ahmedabad,Mumbai,Air India,22:55:00,05:05:00,7245,Yes,120
+F300,Ahmedabad,Mumbai,IndiGo,11:05:00,12:25:00,8495,Yes,120
+F301,Ahmedabad,Mumbai,Akasa Air,10:05:00,11:40:00,9167,Yes,120
+F302,Ahmedabad,Mumbai,IndiGo,17:20:00,18:40:00,9351,Yes,120
+F303,Ahmedabad,Bengaluru,IndiGo,20:05:00,22:15:00,6490,Yes,120
+F304,Ahmedabad,Bengaluru,Akasa Air,18:50:00,21:05:00,6498,Yes,120
+F305,Ahmedabad,Bengaluru,IndiGo,16:20:00,18:40:00,6490,Yes,120
+F306,Ahmedabad,Bengaluru,IndiGo,22:20:00,00:40:00,6718,Yes,120
+F307,Ahmedabad,Chennai,IndiGo,23:05:00,05:55:00,8957,Yes,120
+F308,Ahmedabad,Chennai,IndiGo,17:05:00,04:35:00,7178,Yes,120
+F309,Ahmedabad,Chennai,Air India,20:30:00,11:45:00,7017,Yes,120
+F310,Ahmedabad,Chennai,Air India,10:45:00,16:35:00,10007,Yes,120
+F311,Ahmedabad,Chennai,Air India,22:55:00,13:25:00,7742,Yes,120
+F312,Ahmedabad,Chennai,Air India,15:40:00,22:55:00,9822,Yes,120
+F313,Ahmedabad,Kolkata,IndiGo,18:10:00,22:40:00,10767,Yes,120
+F314,Ahmedabad,Kolkata,IndiGo,15:45:00,22:00:00,10901,Yes,120
+F315,Ahmedabad,Kolkata,Air India,17:25:00,22:45:00,11850,Yes,120
+F316,Ahmedabad,Kolkata,IndiGo,17:05:00,22:25:00,11891,Yes,120
+F317,Ahmedabad,Kolkata,Air India,17:25:00,00:15:00,11850,Yes,120
+F318,Ahmedabad,Kolkata,IndiGo,16:30:00,18:50:00,15885,Yes,120
+F319,Ahmedabad,Hyderabad,IndiGo,22:10:00,23:40:00,7802,Yes,120
+F320,Ahmedabad,Hyderabad,IndiGo,10:30:00,12:00:00,9167,Yes,120
+F321,Ahmedabad,Hyderabad,IndiGo,16:10:00,17:50:00,10742,Yes,120
+F322,Ahmedabad,Hyderabad,Air India,17:25:00,21:10:00,11055,Yes,120
+F323,Ahmedabad,Hyderabad,Air India,22:55:00,07:25:00,9059,Yes,120
+F324,Ahmedabad,Cochin,IndiGo,16:05:00,18:25:00,12002,Yes,120
+F325,Ahmedabad,Cochin,IndiGo,16:20:00,21:10:00,10908,Yes,120
+F326,Ahmedabad,Cochin,IndiGo,16:20:00,23:25:00,10645,Yes,120
+F327,Ahmedabad,Cochin,IndiGo,22:20:00,08:25:00,10446,Yes,120
+F328,Ahmedabad,Cochin,IndiGo,10:30:00,15:30:00,13496,Yes,120
+F329,Ahmedabad,Cochin,IndiGo,17:20:00,02:40:00,11365,Yes,120
+F330,Ahmedabad,Goa,Air India,22:55:00,06:20:00,5598,Yes,120
+F331,Ahmedabad,Goa,Akasa Air,10:50:00,12:35:00,10256,Yes,120
+F332,Ahmedabad,Goa,Air India,20:30:00,06:20:00,6153,Yes,120
+F333,Ahmedabad,Goa,IndiGo,11:35:00,13:10:00,12471,Yes,120
+F334,Ahmedabad,Goa,Air India,22:55:00,14:50:00,6542,Yes,120
+F335,Ahmedabad,Goa,IndiGo,16:10:00,20:40:00,14450,Yes,120
+F336,Ahmedabad,Guwahati,Air India,23:00:00,11:20:00,16616,Yes,120
+F337,Ahmedabad,Guwahati,Air India,22:10:00,11:20:00,16616,Yes,120
+F338,Ahmedabad,Guwahati,IndiGo,16:30:00,22:40:00,18175,Yes,120
+F339,Ahmedabad,Guwahati,Air India,18:40:00,11:20:00,16687,Yes,120
+F340,Ahmedabad,Guwahati,IndiGo,15:50:00,22:40:00,20342,Yes,120
+F341,Ahmedabad,Guwahati,Air India,23:00:00,16:10:00,18278,Yes,120
+F342,Goa,Delhi,Air India,21:55:00,05:10:00,6100,Yes,120
+F343,Goa,Delhi,Air India,20:40:00,23:25:00,6625,Yes,120
+F344,Goa,Delhi,IndiGo,21:00:00,23:30:00,7237,Yes,120
+F345,Goa,Delhi,IndiGo,10:30:00,13:10:00,7920,Yes,120
+F346,Goa,Delhi,Air India,21:35:00,04:40:00,8102,Yes,120
+F347,Goa,Mumbai,SpiceJet,17:00:00,18:15:00,5321,Yes,120
+F348,Goa,Mumbai,IndiGo,20:55:00,22:15:00,5842,Yes,120
+F349,Goa,Mumbai,Air India,22:45:00,04:45:00,5982,Yes,120
+F350,Goa,Mumbai,Air India,20:50:00,22:10:00,6391,Yes,120
+F351,Goa,Bengaluru,IndiGo,21:00:00,22:15:00,4530,Yes,120
+F352,Goa,Bengaluru,Air India,18:55:00,20:30:00,4727,Yes,120
+F353,Goa,Bengaluru,IndiGo,11:25:00,12:35:00,5013,Yes,120
+F354,Goa,Bengaluru,Air India,14:40:00,15:55:00,7279,Yes,120
+F355,Goa,Bengaluru,Air India,21:05:00,01:10:00,10838,Yes,120
+F356,Goa,Chennai,IndiGo,21:00:00,06:00:00,6386,Yes,120
+F357,Goa,Chennai,IndiGo,11:25:00,18:30:00,10269,Yes,120
+F358,Goa,Chennai,IndiGo,11:25:00,17:30:00,11366,Yes,120
+F359,Goa,Chennai,IndiGo,21:10:00,06:45:00,9594,Yes,120
+F360,Goa,Chennai,Air India,22:45:00,07:15:00,10828,Yes,120
+F361,Goa,Chennai,Air India,22:45:00,08:55:00,10828,Yes,120
+F362,Goa,Kolkata,IndiGo,11:10:00,13:45:00,8846,Yes,120
+F363,Goa,Kolkata,Air India,17:25:00,22:45:00,8987,Yes,120
+F364,Goa,Kolkata,Air India,17:25:00,00:15:00,8987,Yes,120
+F365,Goa,Kolkata,Air India,17:30:00,22:45:00,9941,Yes,120
+F366,Goa,Kolkata,Air India,17:30:00,00:15:00,9941,Yes,120
+F367,Goa,Kolkata,Air India,15:50:00,22:45:00,10091,Yes,120
+F368,Goa,Hyderabad,Air India,21:05:00,22:20:00,4633,Yes,120
+F369,Goa,Hyderabad,Fly91,14:55:00,16:35:00,4493,Yes,120
+F370,Goa,Hyderabad,IndiGo,21:10:00,22:20:00,5131,Yes,120
+F371,Goa,Hyderabad,Air India,15:05:00,16:25:00,5200,Yes,120
+F372,Goa,Hyderabad,Star Air,15:45:00,18:20:00,7623,Yes,120
+F373,Goa,Cochin,Air India,20:50:00,01:55:00,10689,Yes,120
+F374,Goa,Cochin,IndiGo,11:25:00,21:10:00,9476,Yes,120
+F375,Goa,Cochin,Air India,15:25:00,21:35:00,11752,Yes,120
+F376,Goa,Cochin,IndiGo,11:25:00,16:40:00,12311,Yes,120
+F377,Goa,Cochin,Air India,17:30:00,01:55:00,11540,Yes,120
+F378,Goa,Cochin,Air India,22:45:00,07:00:00,12230,Yes,120
+F379,Goa,Ahmedabad,Akasa Air,14:50:00,16:35:00,7272,Yes,120
+F380,Goa,Ahmedabad,IndiGo,20:55:00,06:30:00,6526,Yes,120
+F381,Goa,Ahmedabad,Air India,17:30:00,22:30:00,6743,Yes,120
+F382,Goa,Ahmedabad,Air India,17:30:00,23:55:00,6008,Yes,120
+F383,Goa,Ahmedabad,Air India,22:45:00,11:20:00,6218,Yes,120
+F384,Goa,Ahmedabad,Air India,15:25:00,23:55:00,6008,Yes,120
+F385,Goa,Guwahati,IndiGo,11:10:00,22:40:00,9808,Yes,120
+F386,Goa,Guwahati,IndiGo,11:10:00,20:45:00,12735,Yes,120
+F387,Goa,Guwahati,IndiGo,11:10:00,17:30:00,16953,Yes,120
+F388,Goa,Guwahati,Air India,21:05:00,09:45:00,14265,Yes,120
+F389,Goa,Guwahati,Air India,21:15:00,13:50:00,14216,Yes,120
+F390,Goa,Guwahati,Air India,21:55:00,06:50:00,19513,Yes,120
+F391,Guwahati,Delhi,IndiGo,20:30:00,23:25:00,7791,Yes,120
+F392,Guwahati,Delhi,SpiceJet,21:40:00,04:50:00,8416,Yes,120
+F393,Guwahati,Delhi,Air-India Express,23:25:00,07:00:00,8390,Yes,120
+F394,Guwahati,Delhi,IndiGo,17:55:00,20:45:00,8991,Yes,120
+F395,Guwahati,Mumbai,Akasa Air,18:15:00,22:00:00,16702,Yes,120
+F396,Guwahati,Mumbai,Air India,15:40:00,20:50:00,15571,Yes,120
+F397,Guwahati,Mumbai,IndiGo,21:15:00,04:45:00,15245,Yes,120
+F398,Guwahati,Mumbai,Air India,15:40:00,23:40:00,15571,Yes,120
+F399,Guwahati,Mumbai,IndiGo,19:20:00,04:45:00,15065,Yes,120
+F400,Guwahati,Mumbai,IndiGo,17:00:00,20:45:00,19257,Yes,120
+F401,Guwahati,Bengaluru,Akasa Air,21:00:00,04:50:00,10007,Yes,120
+F402,Guwahati,Bengaluru,Air-India Express,21:30:00,05:15:00,12432,Yes,120
+F403,Guwahati,Bengaluru,Akasa Air,16:35:00,20:00:00,12720,Yes,120
+F404,Guwahati,Bengaluru,IndiGo,19:20:00,05:15:00,11407,Yes,120
+F405,Guwahati,Bengaluru,Air-India Express,18:30:00,23:10:00,12473,Yes,120
+F406,Guwahati,Chennai,Air-India Express,18:30:00,21:30:00,12039,Yes,120
+F407,Guwahati,Chennai,IndiGo,16:35:00,19:45:00,12040,Yes,120
+F408,Guwahati,Chennai,IndiGo,18:00:00,00:10:00,12798,Yes,120
+F409,Guwahati,Chennai,IndiGo,21:15:00,07:30:00,11838,Yes,120
+F410,Guwahati,Chennai,Air-India Express,12:30:00,22:05:00,14208,Yes,120
+F411,Guwahati,Chennai,SpiceJet,21:40:00,07:50:00,14594,Yes,120
+F412,Guwahati,Kolkata,SpiceJet,19:25:00,20:55:00,4066,Yes,120
+F413,Guwahati,Kolkata,Alliance Air,16:40:00,18:25:00,3991,Yes,120
+F414,Guwahati,Kolkata,Alliance Air,18:00:00,19:45:00,3991,Yes,120
+F415,Guwahati,Kolkata,Air India,15:40:00,17:10:00,4327,Yes,120
+F416,Guwahati,Kolkata,IndiGo,19:20:00,20:45:00,5291,Yes,120
+F417,Guwahati,Hyderabad,IndiGo,16:50:00,19:50:00,13291,Yes,120
+F418,Guwahati,Hyderabad,Air-India Express,13:10:00,16:25:00,13290,Yes,120
+F419,Guwahati,Hyderabad,Air-India Express,12:30:00,16:45:00,12876,Yes,120
+F420,Guwahati,Hyderabad,Air-India Express,12:30:00,22:35:00,12876,Yes,120
+F421,Guwahati,Hyderabad,IndiGo,21:15:00,07:40:00,14454,Yes,120
+F422,Guwahati,Hyderabad,IndiGo,11:50:00,17:15:00,18103,Yes,120
+F423,Guwahati,Cochin,Air-India Express,18:30:00,06:30:00,15592,Yes,120
+F424,Guwahati,Cochin,IndiGo,16:35:00,22:40:00,17790,Yes,120
+F425,Guwahati,Cochin,Air-India Express,21:30:00,10:50:00,16956,Yes,120
+F426,Guwahati,Cochin,IndiGo,16:50:00,22:50:00,19383,Yes,120
+F427,Guwahati,Cochin,IndiGo,16:45:00,23:25:00,19634,Yes,120
+F428,Guwahati,Cochin,Air-India Express,21:30:00,13:15:00,16956,Yes,120
+F429,Guwahati,Ahmedabad,IndiGo,21:15:00,13:15:00,18048,Yes,120
+F430,Guwahati,Ahmedabad,IndiGo,18:00:00,04:45:00,21246,Yes,120
+F431,Guwahati,Ahmedabad,IndiGo,20:30:00,12:15:00,22200,Yes,120
+F432,Guwahati,Ahmedabad,IndiGo,20:30:00,13:25:00,22200,Yes,120
+F433,Guwahati,Ahmedabad,Air India,18:45:00,12:10:00,22031,Yes,120
+F434,Guwahati,Ahmedabad,IndiGo,11:50:00,04:45:00,22446,Yes,120
+F435,Guwahati,Goa,Air India,13:10:00,20:20:00,22387,Yes,120
+F436,Guwahati,Goa,Air India,23:25:00,13:50:00,21265,Yes,120
+F437,Guwahati,Goa,Air India,23:25:00,15:10:00,21442,Yes,120
+F438,Guwahati,Goa,Air India,23:25:00,20:55:00,19442,Yes,120
+F439,Guwahati,Goa,Air India,13:05:00,20:55:00,27541,Yes,120
+F440,Guwahati,Goa,Air India,23:25:00,13:30:00,24325,Yes,120

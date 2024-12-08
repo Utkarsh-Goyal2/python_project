@@ -1,0 +1,199 @@
+﻿Package Id,City,Hotel__Name,Hotel__Rating,Hotel__Price,Duration,Availibilty,Hotel Rooms
+H001,Delhi,Hotel Square Plaza -Near IGI Airport Terminal 3,4.8/5,1798,,Yes,60
+H002,Delhi,Majestic Park B & B,4.6/5,1590,,Yes,60
+H003,Delhi,Hotel Ark Wood Residency Near Delhi International Airport,4.5/5,1484,,Yes,60
+H004,Delhi,Hotel Edission View --Near Delhi Airport,4.4/5,1299,,Yes,60
+H005,Delhi,Airport Hotel Classic Park,4.6/5,1329,,Yes,60
+H006,Delhi,East Park Inn,3.6/5,5026,,Yes,60
+H007,Delhi,Hotel Mayank Plaza-Near IGI Airport Terminal-3,4.1/5,1070,,Yes,60
+H008,Delhi,Roomsity Pride,5.0/5,1339,,Yes,60
+H009,Delhi,"Pride Plaza Hotel, Aerocity New Delhi",4.3/5,11249,,Yes,60
+H010,Delhi,Hotel GoodLuck House Near Delhi airport,4.3/5,1205,,Yes,60
+H011,Mumbai,Fairfield by Marriott Mumbai International Airport,4.4/5,8999,,Yes,60
+H012,Mumbai,"The Taj Mahal Tower, Mumbai",4.8/5,17990,,Yes,60
+H013,Mumbai,Hotel Sahara Star,4.0/5,12393,,Yes,60
+H014,Mumbai,"Holiday Inn Mumbai International Airport, an IHG Hotel",4.3/5,8749,,Yes,60
+H015,Mumbai,JW Marriott Mumbai Sahar Airport,4.7/5,14000,,Yes,60
+H016,Mumbai,Courtyard by Marriott Mumbai International Airport,4.6/5,11500,,Yes,60
+H017,Mumbai,Ira by Orchid Mumbai T-2 International Airport,4.4/5,6295,,Yes,60
+H018,Mumbai,"Ginger Mumbai, Goregaon",4.0/5,6745,,Yes,60
+H019,Mumbai,Taj Lands End,4.5/5,10994,,Yes,60
+H020,Mumbai,"Lemon Tree Premier, Mumbai International Airport",4.4/5,8329,,Yes,60
+H021,Mumbai,The Westin Mumbai Powai Lake,4.2/5,13500,,Yes,60
+H022,Mumbai,Svenska Design Hotel,3.9/5,6997,,Yes,60
+H023,Bengaluru,Ibis Bengaluru City Centre - An Accor Brand,3.7/5,6800,,Yes,60
+H024,Bengaluru,Fairfield by Marriott Bengaluru Rajajinagar,3.6/5,7593,,Yes,60
+H025,Bengaluru,Goldfinch Hotel Bangalore,4.1/5,5499,,Yes,60
+H026,Bengaluru,Ramada Encore by Wyndham Bangalore Domlur,4.6/5,7000,,Yes,60
+H027,Bengaluru,Octave Church Inn,3.8/5,2196,,Yes,60
+H028,Bengaluru,JW Marriott Hotel Bengaluru,4.8/5,19000,,Yes,60
+H029,Bengaluru,Holiday Inn Bengaluru Racecourse,4.4/5,20499,,Yes,60
+H030,Bengaluru,"The Elanza Hotel, Bangalore",3.8/5,3996,,Yes,60
+H031,Bengaluru,Vivanta Bengaluru Residency Road,4.1/5,10994,,Yes,60
+H032,Bengaluru,Ginger Bangalore- Whitefield,4.0/5,3597,,Yes,60
+H033,Bengaluru,"ITC Gardenia, a Luxury Collection Hotel, Bengaluru",4.3/5,18000,,Yes,60
+H034,Bengaluru,Ginger Bangalore- Inner Ring Road,4.2/5,3435,,Yes,60
+H035,Chennai,Taj Club House,4.3/5,5797,,Yes,60
+H036,Chennai,The Park Chennai,3.7/5,5658,,Yes,60
+H037,Chennai,"Radisson Chennai City Centre, India",4.4/5,6110,,Yes,60
+H038,Chennai,"The Raintree, St. Mary’s Road",4.3/5,7569,,Yes,60
+H039,Chennai,Ibis Chennai City Centre,3.6/5,4935,,Yes,60
+H040,Chennai,"The Residency, Chennai",3.9/5,8192,,Yes,60
+H041,Chennai,Grand Chennai by GRT Hotels,4.5/5,7646,,Yes,60
+H042,Chennai,Ramada Plaza by Wyndham Chennai,4.3/5,6403,,Yes,60
+H043,Chennai,Courtyard Chennai,4.2/5,6000,,Yes,60
+H044,Chennai,The Accord Metropolitan,4.0/5,8259,,Yes,60
+H045,Kolkata,Vivanta Kolkata EM Bypass,4.0/5,6894,,Yes,60
+H046,Kolkata,"Taj City Centre New Town, Kolkata",4.4/5,8500,,Yes,60
+H047,Kolkata,The Westin Kolkata Rajarhat,4.3/5,9549,,Yes,60
+H048,Kolkata,Howard Johnson by Wyndham Kolkata,4.2/5,5099,,Yes,60
+H049,Kolkata,"Holiday Inn Kolkata Airport, an IHG Hotel",3.9/5,5244,,Yes,60
+H050,Kolkata,Hyatt Regency Kolkata,3.8/5,10500,,Yes,60
+H051,Kolkata,"ITC Royal Bengal, a Luxury Collection Hotel, Kolkata",4.3/5,15000,,Yes,60
+H052,Kolkata,Dover Inn by BookMeriHotel.Com,4.4/5,1646,,Yes,60
+H053,Kolkata,Siamton Inn- A Cygnett Collection,4.3/5,5800,,Yes,60
+H054,Kolkata,The Lalit Great Eastern Kolkata,3.7/5,9201,,Yes,60
+H055,Hyderabad,"The Park Hyderabad, Banjara Hills Near Hussain Sagar Lake",4.0/5,6825,,Yes,60
+H056,Hyderabad,Hyderabad Marriott Hotel & Convention Centre,4.4/5,8495,,Yes,60
+H057,Hyderabad,Taj Krishna,4.1/5,8093,,Yes,60
+H058,Hyderabad,"Vivanta Hyderabad, Begumpet",4.3/5,7578,,Yes,60
+H059,Hyderabad,Taj Deccan,4.2/5,7471,,Yes,60
+H060,Hyderabad,Le Meridien Hyderabad,4.2/5,8099,,Yes,60
+H061,Hyderabad,Hyatt Place Hyderabad Banjara Hills,4.0/5,7999,,Yes,60
+H062,Hyderabad,Greenpark Hyderabad,4.5/5,6229,,Yes,60
+H063,Hyderabad,"Lemon Tree Hotel, Banjara Hills, Hyderabad",4.5/5,5387,,Yes,60
+H064,Cochin,Sidra Pristine Hotel and Portico Halls,3.8/5,2575,,Yes,60
+H065,Cochin,Holiday Inn Cochin,3.8/5,7499,,Yes,60
+H066,Cochin,"Keys Select by Lemon Tree Hotels, Kochi",4.2/5,3212,,Yes,60
+H067,Cochin,Super Collection O Calvathy Road Near Fort Kochi,4.5/5,1899,,Yes,60
+H068,Cochin,Kent Baywatch Suites,4.0/5,3098,,Yes,60
+H069,Cochin,Honolulu Home,4.1/5,1308,,Yes,60
+H070,Cochin,Guest West Inn Cochin,4.1/5,2778,,Yes,60
+H071,Cochin,Lazar Residency Homestay,4.5/5,1562,,Yes,60
+H072,Cochin,Dream Catcher Home Stay,4.5/5,1562,,Yes,60
+H073,Ahmedabad,Fairfield by Marriott Ahmedabad,3.7/5,6000,,Yes,60
+H074,Ahmedabad,Renaissance Ahmedabad Hotel,4.4/5,6500,,Yes,60
+H075,Ahmedabad,Sarovar Portico Kalupur Ahmedabad,4.1/5,4050,,Yes,60
+H076,Ahmedabad,"ITC Narmada, a Luxury Collection Hotel, Ahmedabad",4.6/5,13500,,Yes,60
+H077,Ahmedabad,Ginger Ahmedabad Vastrapur,4.0/5,3499,,Yes,60
+H078,Ahmedabad,Hyatt Ahmedabad,4.1/5,9800,,Yes,60
+H079,Ahmedabad,"Welcomhotel by ITC Hotels, Ashram Road, Ahmedabad",4.4/5,10099,,Yes,60
+H080,Ahmedabad,Lemon Tree Premier “The Atrium” Ahmedabad,4.4/5,10939,,Yes,60
+H081,Ahmedabad,Hotel Alka Inn,3.8/5,2634,,Yes,60
+H082,Ahmedabad,"Lemon Tree Hotel, Ahmedabad",3.9/5,6044,,Yes,60
+H083,Goa,Fairfield by Marriott Goa Benaulim,4.4/5,9300,,Yes,60
+H084,Goa,Novotel Goa Resort & Spa,4.4/5,8840,,Yes,60
+H085,Goa,Holiday Inn Goa Candolim,4.6/5,12999,,Yes,60
+H086,Goa,Park Regis Goa,3.8/5,6975,,Yes,60
+H087,Goa,Riva Beach Resort,4.1/5,9695,,Yes,60
+H088,Goa,"Taj Cidade de Goa Horizon, Goa",4.6/5,24379,,Yes,60
+H089,Goa,"Ginger Madgaon, Goa",3.9/5,3639,,Yes,60
+H090,Goa,"Lazy Lagoon, Baga A Lemon Tree Resort, Goa",4.8/5,5609,,Yes,60
+H091,Goa,Marina Bay Beach Resort,3.8/5,2944,,Yes,60
+H092,Goa,La Vega Resort,5.0/5,1231,,Yes,60
+H093,Trivandrum,Hilton Garden Inn Trivandrum,4.3/5,7000,,Yes,60
+H094,Trivandrum,Classic Sarovar Portico Trivandrum,4.7/5,4050,,Yes,60
+H095,Trivandrum,Dimora Hotels and Resorts,4.1/5,5400,,Yes,60
+H096,Trivandrum,Residency Tower,4.0/5,3645,,Yes,60
+H097,Trivandrum,"O by Tamara, Trivandrum",4.6/5,5814,,Yes,60
+H098,Trivandrum,Hyatt Regency Trivandrum,4.7/5,8750,,Yes,60
+H099,Trivandrum,The Central Residency,4.1/5,4499,,Yes,60
+H100,Trivandrum,Hycinth Hotels,4.3/5,6376,,Yes,60
+H101,Trivandrum,Indeevaram Residency,4.3/5,2659,,Yes,60
+H102,Trivandrum,Treebo Park,4.0/5,2491,,Yes,60
+H103,Pune,Novotel Pune Nagar Road,4.1/5,5249,,Yes,60
+H104,Pune,Hyatt Regency Pune,4.5/5,7700,,Yes,60
+H105,Pune,Ginger Pune Wakad,4.0/5,5277,,Yes,60
+H106,Pune,Blue Diamond Pune Ihcl SeleQtions,4.4/5,9250,,Yes,60
+H107,Pune,Lemon Tree Premier City Center Pune,4.5/5,5618,,Yes,60
+H108,Pune,Hyatt Pune,4.0/5,7000,,Yes,60
+H109,Pune,O Hotel Pune,3.9/5,7049,,Yes,60
+H110,Pune,St Laurn Koregaon Park Pune,4.0/5,5536,,Yes,60
+H111,Pune,"Four Points by Sheraton Hotel & Serviced Apartments, Pune",4.1/5,7000,,Yes,60
+H112,Jaipur,Holiday Inn Express & Suites Jaipur Gopalpura,4.4/5,6374,,Yes,60
+H113,Jaipur,Cozy Castle,5.0/5,15000,,Yes,60
+H114,Jaipur,Hotel Metropolitan,4.6/5,1348,,Yes,60
+H115,Jaipur,Clarks Amer,4.6/5,12563,,Yes,60
+H116,Jaipur,Holiday Inn Jaipur City Centre,4.2/5,14291,,Yes,60
+H117,Jaipur,Hotel Thikana Palace,3.9/5,1183,,Yes,60
+H118,Jaipur,Jaipur Inn,4.1/5,3181,,Yes,60
+H119,Jaipur,Whispering Palms Hotel Jaipur,4.2/5,2339,,Yes,60
+H120,Jaipur,Ramada by Wyndham Jaipur North,4.2/5,5381,,Yes,60
+H121,Lucknow,Holiday Inn Lucknow Airport,4.4/5,14500,,Yes,60
+H122,Lucknow,The Piccadily,4.5/5,13614,,Yes,60
+H123,Lucknow,Hometel Alambagh Lucknow - A Sarovar Hotel,5.0/5,8296,,Yes,60
+H124,Lucknow,Lemon Tree Hotel Lucknow,4.2/5,11851,,Yes,60
+H125,Lucknow,The Centrum,4.7/5,11455,,Yes,60
+H126,Lucknow,Hotel Vinayak,4.5/5,3991,,Yes,60
+H127,Lucknow,Hotel Olive Crown,1.0/5,3300,,Yes,60
+H128,Lucknow,FabHotel A One Inn,3.1/5,2807,,Yes,60
+H129,Guwahati,Novotel Guwahati GS Road,4.2/5,7836,,Yes,60
+H130,Guwahati,Hotel Rains Inn,4.0/5,3919,,Yes,60
+H131,Guwahati,Bed and breakfast,4.0/5,3919,,Yes,60
+H132,Guwahati,Hotel Rashmi Guwahati,3.7/5,1999,,Yes,60
+H133,Guwahati,Super Townhouse Oak GS Road Formerly d'Agneedeep,4.4/5,3417,,Yes,60
+H134,Guwahati,Treebo Hotel Mobi VIP Airport,4.0/5,2207,,Yes,60
+H135,Guwahati,Hotel Nandan,3.7/5,4500,,Yes,60
+H136,Guwahati,Hotel Millennium,3.8/5,3698,,Yes,60
+H137,Guwahati,Ghar 365 Residency,3.7/5,3775,,Yes,60
+H138,Guwahati,Hotel Atithi,3.8/5,4998,,Yes,60
+H139,Guwahati,Kiranshree Grand,4.5/5,10499,,Yes,60
+H140,Amritsar,"Welcomhotel by ITC Hotels, Raja Sansi, Amritsar",4.6/5,8900,,Yes,60
+H141,Amritsar,Le Méridien Amritsar,4.6/5,8000,,Yes,60
+H142,Amritsar,Golden Sarovar Portico,4.6/5,5600,,Yes,60
+H143,Amritsar,Ramada Encore by Wyndham Amritsar Airport,4.6/5,6000,,Yes,60
+H144,Amritsar,Holiday Inn Amritsar Ranjit Avenue,4.1/5,10000,,Yes,60
+H145,Amritsar,Hotel PR Residency Amritsar,3.6/5,2400,,Yes,60
+H146,Amritsar,WelcomHeritage Ranjitvilas,4.3/5,6799,,Yes,60
+H147,Amritsar,Hotel Punnu International,5.0/5,1785,,Yes,60
+H148,Amritsar,Kavaali Stays,5.0/5,6799,,Yes,60
+H149,Amritsar,Best Western AH1 Amritsar,3.5/5,5398,,Yes,60
+H150,Varanasi,Local Lok,4.7/5,425,,Yes,60
+H151,Varanasi,Ramada Plaza by Wyndham JHV Varanasi,3.6/5,13000,,Yes,60
+H152,Varanasi,Taj Ganges Varanasi,4.4/5,25998,,Yes,60
+H153,Varanasi,Trilok Residency Dashashwamedh Varanasi,4.4/5,2676,,Yes,60
+H154,Varanasi,Hotel Prabhat,3.8/5,2700,,Yes,60
+H155,Varanasi,The Olivia,5.0/5,5445,,Yes,60
+H156,Varanasi,"Sada Shiv Guest House ,3 Star Hotel Near Kashi Vishwanath Temple and Dashashwamedh Ghat with Parking",4.8/5,2628,,Yes,60
+H157,Varanasi,The Fern Residency Sarnath,4.2/5,9261,,Yes,60
+H158,Varanasi,Siddhi Vinayak Inn,3.7/5,2500,,Yes,60
+H159,Varanasi,Gupta Inn,3.6/5,2280,,Yes,60
+H160,Bhubaneswar,Ginger Bhubaneshwar,3.9/5,3598,,Yes,60
+H161,Bhubaneswar,"The Crown, Bhubaneswar - Ihcl SeleQtions",4.7/5,5460,,Yes,60
+H162,Bhubaneswar,Cozzet Victoria Hotel,4.5/5,6799,,Yes,60
+H163,Bhubaneswar,Mayfair Convention,4.7/5,6163,,Yes,60
+H164,Bhubaneswar,Ira by Orchid Bhubaneswar - Formerly Vits Bhubaneshwar,4.7/5,4097,,Yes,60
+H165,Bhubaneswar,"Welcomhotel by ITC Hotels, Bhubaneswar",4.7/5,9000,,Yes,60
+H166,Bhubaneswar,"Fortune Park Sishmo, Bhubaneshwar - Member ITC's Hotel Group",4.7/5,7650,,Yes,60
+H167,Bhubaneswar,Hotel Swosti Premium Bhubaneswar,4.3/5,7504,,Yes,60
+H168,Bhubaneswar,Trident Bhubaneswar,4.7/5,11999,,Yes,60
+H169,Bhubaneswar,Lyfe Hotels Bhubaneswar,4.9/5,12999,,Yes,60
+H170,Coimbatore,Ibis Coimbatore City Centre,3.6/5,6062,,Yes,60
+H171,Coimbatore,Fairfield by Marriott Coimbatore,4.2/5,10631,,Yes,60
+H172,Coimbatore,Ikon by Annapoorna,4.5/5,6400,,Yes,60
+H173,Coimbatore,The Grand Regent,4.3/5,5264,,Yes,60
+H174,Coimbatore,Cag Pride,3.8/5,4858,,Yes,60
+H175,Coimbatore,Santhoshpuri,3.8/5,2250,,Yes,60
+H176,Coimbatore,Hotel Heritage Inn,4.3/5,3900,,Yes,60
+H177,Coimbatore,Zone by the Park Coimbatore,4.3/5,6746,,Yes,60
+H178,Coimbatore,"Welcomhotel by ITC Hotels, RaceCourse, Coimbatore",4.1/5,11499,,Yes,60
+H179,Visakhapatnam,"Welcomhotel by ITC Hotels, Devee Grand Bay, Visakhapatnam",4.5/5,7500,,Yes,60
+H180,Visakhapatnam,Novotel Visakhapatnam Varun Beach,3.9/5,8241,,Yes,60
+H181,Visakhapatnam,Fairfield by Marriott Visakhapatnam,4.3/5,6953,,Yes,60
+H182,Visakhapatnam,Four Points by Sheraton Visakhapatnam,4.1/5,7800,,Yes,60
+H183,Visakhapatnam,The Park Visakhapatnam,4.2/5,7865,,Yes,60
+H184,Visakhapatnam,Greenpark Visakhapatnam,4.4/5,5669,,Yes,60
+H185,Visakhapatnam,"Fortune Inn Sree Kanya, Visakhapatnam - Member ITC's Hotel Group",4.5/5,4250,,Yes,60
+H186,Visakhapatnam,"Keys Select by Lemon Tree Hotels, Visakhapatnam",4.4/5,3756,,Yes,60
+H187,Visakhapatnam,Hotel Daspalla,4.3/5,4500,,Yes,60
+H188,Visakhapatnam,The Beacon Hotel Visakhapatnam,4.8/5,2730,,Yes,60
+H189,Mangalore,Ginger Mangalore,3.8/5,3235,,Yes,60
+H190,Mangalore,Goldfinch Hotel Mangalore,3.7/5,5999,,Yes,60
+H191,Mangalore,"Adyar Plaza Inn by Rak Rooms, Mangaluru",3.8/5,2951,,Yes,60
+H192,Mangalore,Hotel Paramount Suites & Service Apartments,3.8/5,4000,,Yes,60
+H193,Mangalore,Hotel Manorama,4.0/5,3920,,Yes,60
+H194,Mangalore,Hotel Karuna Residency,3.6/5,7974,,Yes,60
+H195,Mangalore,"Hotel Prestige, Mangalore",3.8/5,4687,,Yes,60
+H196,Mangalore,Srinivas Saffron Hotel,3.9/5,2969,,Yes,60
+H197,Mangalore,Hotel White Stone Premier Inn,4.0/5,1499,,Yes,60
+H198,Mangalore,Hotel Shoolin Grand,4.1/5,10500,,Yes,60
