@@ -32,7 +32,7 @@ class Flight(TravelPackage):
         self.airline = airline
         self.departure_time = departure_time
         self.start = start
-         time_obj = datetime.strptime(self.departure_time, "%H:%M:%S")
+        time_obj = datetime.strptime(self.departure_time, "%H:%M:%S")
         flight_duration = timedelta(hours=self.duration['hours'], minutes=self.duration['minutes'])
         arrival_time = time_obj + flight_duration
         self.arrival_time = arrival_time.strftime("%H:%M:%S")
