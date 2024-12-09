@@ -11,16 +11,31 @@ bookings = []
 
 
 def book_item(thing):
-    """Book an item and store it in the global bookings list."""
-    bookings.append(thing)
-    popup = ctk.CTkToplevel()
-    popup.geometry("300x150")
-    popup.attributes("-topmost", True)
-    popup.grab_set()
-    label = ctk.CTkLabel(popup, text="Booking Successful!", font=("Arial", 14))
-    label.pack(pady=20)
-    close_button = ctk.CTkButton(popup, text="Close", command=popup.destroy)
-    close_button.pack(pady=10)
+    """Book an item and store it in the global bookings list and backend."""
+    try:
+        # Assuming `thing[0]` is the package ID and using "packages_flight.csv" as an example file
+        package_id = thing[0]
+        TravelManager.make_bookings("packages_flight.csv")  # Adjust based on item type
+        bookings.append(thing)
+        
+        popup = ctk.CTkToplevel()
+        popup.geometry("300x150")
+        popup.attributes("-topmost", True)
+        popup.grab_set()
+        label = ctk.CTkLabel(popup, text="Booking Successful!", font=("Arial", 14))
+        label.pack(pady=20)
+        close_button = ctk.CTkButton(popup, text="Close", command=popup.destroy)
+        close_button.pack(pady=10)
+    except Exception as e:
+        # Handle backend errors
+        popup = ctk.CTkToplevel()
+        popup.geometry("300x150")
+        popup.attributes("-topmost", True)
+        popup.grab_set()
+        label = ctk.CTkLabel(popup, text=f"Booking Failed: {e}", font=("Arial", 14))
+        label.pack(pady=20)
+        close_button = ctk.CTkButton(popup, text="Close", command=popup.destroy)
+        close_button.pack(pady=10)
 
 
 def main():
@@ -92,9 +107,16 @@ def main():
                 resultframe.frames.append(self)
             for i, thing in enumerate(results):
                 formatted_results = (
-                    f"From: {thing[1]}\nTo: {thing[2]}\nAirline: {thing[3]}\n"
-                    f"Departure Time: {thing[4]}\nArrival Time: {thing[5]}\n"
-                    f"Price: ₹{thing[6]}\nAvailability: {thing[7]}\nSeats Left = {thing[8]}"
+                    f"From: {thing[1]}
+To: {thing[2]}
+Airline: {thing[3]}
+"
+                    f"Departure Time: {thing[4]}
+Arrival Time: {thing[5]}
+"
+                    f"Price: ₹{thing[6]}
+Availability: {thing[7]}
+Seats Left = {thing[8]}"
                 )
                 label = ctk.CTkLabel(self, text=f"{formatted_results}", anchor="w", font=("Arial", 20), text_color="white", justify="left")
                 label.grid(row=2 * i, column=0, padx=10, pady=5, sticky="w")
@@ -121,8 +143,13 @@ def main():
         else:
             for booking in bookings:
                 formatted_booking = (
-                    f"From: {booking[1]}\nTo: {booking[2]}\nAirline: {booking[3]}\n"
-                    f"Departure Time: {booking[4]}\nArrival Time: {booking[5]}\n"
+                    f"From: {booking[1]}
+To: {booking[2]}
+Airline: {booking[3]}
+"
+                    f"Departure Time: {booking[4]}
+Arrival Time: {booking[5]}
+"
                     f"Price: ₹{booking[6]}"
                 )
                 label = ctk.CTkLabel(frame, text=f"{formatted_booking}", font=("Arial", 20), text_color="white", justify="left")
