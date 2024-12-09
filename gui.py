@@ -62,12 +62,12 @@ def main():
             self.grid(row = 4, column = 0, sticky = "nsew",pady = 10)
             if self not in resultframe.frames:
                 resultframe.frames.append(self)
-            for i, flight in enumerate(results):
-                formatted_results = f"From: {flight[0]}\nTo: {flight[1]}\nAirline: {flight[2]}\nDeparture Time: {flight[3]}\nArrival Time: {flight[4]}\nPrice: {flight[5]}\nAvailability: {flight[6]}\nSeats Left = {flight[7]} "
+            for i, thing in enumerate(results):
+                formatted_results = f"From: {thing[1]}\nTo: {thing[2]}\nAirline: {thing[3]}\nDeparture Time: {thing[4]}\nArrival Time: {thing[5]}\nPrice: ₹{thing[6]}\nAvailability: {thing[7]}\nSeats Left = {thing[8]} "
                 label = ctk.CTkLabel(self, text=f"{formatted_results}", anchor="w", font=("Arial", 20),text_color="white",justify = "left")
-                label.grid(row=i + 1, column=0, padx=10, pady=5, sticky="w")
+                label.grid(row=2*i, column=0, padx=10, pady=5, sticky="w")
                 separator = ctk.CTkLabel(self, text="", fg_color="gray", height=1, width=500)
-                separator.grid(row=i + 2, column=0, sticky="ew", padx=10, pady=(0, 10))
+                separator.grid(row=2*i+1, column=0, sticky="ew", padx=10, pady=(0, 10))
             parent.grid_rowconfigure(4, weight=1)
             parent.grid_columnconfigure(0, weight=1)
 
