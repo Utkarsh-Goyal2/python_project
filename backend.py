@@ -32,11 +32,11 @@ class Flight(TravelPackage):
         self.airline = airline
         self.departure_time = departure_time
         self.start = start
-        time_obj = datetime.strptime(self.departure_time, "%H:%M:%S")
-        new_time = time_obj + timedelta(hours=1, minutes=45)
-        new_time_str = new_time.strftime("%H:%M:%S")
-        self.arrival_time = new_time_str
-    
+         time_obj = datetime.strptime(self.departure_time, "%H:%M:%S")
+        flight_duration = timedelta(hours=self.duration['hours'], minutes=self.duration['minutes'])
+        arrival_time = time_obj + flight_duration
+        self.arrival_time = arrival_time.strftime("%H:%M:%S")
+        
     def details(self):
         details = {"Package ID":self.package_id,"From":self.start,"To":self.destination,"Flight Name":self.airline,"Departure time":self.departure_time,"Arrival time":self.arrival_time,"Price":self.price,"Availibility Staus":self.availability_status}
         return details
