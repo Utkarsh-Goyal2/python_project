@@ -58,13 +58,18 @@ def main():
         def __init__(self,parent,results):
             self.parent = parent
             self.results = results
-            super().__init__(parent,fg_color = "#F5F5F5")
-            self.grid(row = 4, column = 1, sticky = "nsew",pady = 10)
+            super().__init__(parent)
+            self.grid(row = 4, column = 0, sticky = "nsew",pady = 10)
             if self not in resultframe.frames:
                 resultframe.frames.append(self)
-            for i in results:
-                label = ctk.CTkLabel(self, tezt = f"{i}")
-                label.pack()
+            for i, flight in enumerate(results):
+                formatted_results = f"From: {flight[0]}\nTo: {flight[1]}\nAirline: {flight[2]}\nDeparture Time: {flight[3]}\nArrival Time: {flight[4]}\nPrice: {flight[5]}\nAvailability: {flight[6]}\nSeats Left = {flight[7]} "
+                label = ctk.CTkLabel(self, text=f"{formatted_results}", anchor="w", font=("Arial", 20),text_color="white",justify = "left")
+                label.grid(row=i + 1, column=0, padx=10, pady=5, sticky="w")
+                separator = ctk.CTkLabel(self, text="", fg_color="gray", height=1, width=500)
+                separator.grid(row=i + 2, column=0, sticky="ew", padx=10, pady=(0, 10))
+            parent.grid_rowconfigure(4, weight=1)
+            parent.grid_columnconfigure(0, weight=1)
 
     #leftframe (will containt stuff like history and cart and stuff)
     leftframe = ctk.CTkFrame(main_window, width=900, fg_color="#FFF4D2")
@@ -123,15 +128,20 @@ def main():
     welcomepage= welcome_page(welcomepage)
     flights = centerframe()
     def flight_page(frame):
-        # Using .grid for layout
+        frame.grid_rowconfigure(0, weight=0)  # Space above the widgets
+        frame.grid_rowconfigure(1, weight=0)  # For the first entry
+        frame.grid_rowconfigure(2, weight=0)  # For the second entry  # For the button
+        frame.grid_rowconfigure(4, weight=1)  # Space below the widgets
+        frame.grid_columnconfigure(0, weight=1)  
+        
         destination = ctk.CTkEntry(frame, placeholder_text="Enter your destination", font=("Arial", 20), width=300)
-        destination.grid(row=0, column=0, padx=10, pady=10, sticky="ew")  # Place at row 0, column 0
+        destination.grid(row=0, column=0, padx=10, pady=10, sticky="")  # Place at row 0, column 0
 
         starting_point = ctk.CTkEntry(frame, placeholder_text="Enter your starting point", font=("Arial", 20), width=300)
-        starting_point.grid(row=1, column=0, padx=10, pady=10, sticky="ew")  # Place at row 1, column 0
+        starting_point.grid(row=1, column=0, padx=10, pady=10, sticky="")  # Place at row 1, column 0
 
-        search = ctk.CTkButton(frame, text="SEARCH", font=("Arial", 20), command=lambda: searching_flight(starting_point.get(), destination.get()))
-        search.grid(row=2, column=0, padx=10, pady=20, sticky="ew")  # Place at row 2, column 0
+        search = ctk.CTkButton(frame,width = 300, text="SEARCH", font=("Arial", 20), command=lambda: searching_flight(starting_point.get(), destination.get()))
+        search.grid(row=2, column=0, padx=10, pady=20, sticky="")  # Place at row 2, column 0
 
         return frame
     flights = flight_page(flights)

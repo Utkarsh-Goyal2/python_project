@@ -87,7 +87,9 @@ class TravelManager:
             for row in reader:
                 if row[1].lower() == start.lower() and row[2].lower() == destination.lower():
                     results.append(row)
+            print(results)
         if results:
+            return results
             print("Matching Flight Packages:")
             print(tabulate(results, headers=header, tablefmt="grid"))
         else:
